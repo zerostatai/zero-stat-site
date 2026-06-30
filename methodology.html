@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zero Stat — Ranking Methodology</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How Zero Stat ranks AI products. The five-axis rubric, the data sources, and the rules we keep.">
+<style>
+  /* Inter via local file */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/brand/fonts/Inter-SemiBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/brand/fonts/Inter-Regular.ttf') format('truetype');
+  }
+
+  :root {
+    --ink: #0A0E18;
+    --paper: #FFFFFF;
+    --cobalt: #3E5BFF;
+    --muted: #6A7180;
+    --rule: rgba(255, 255, 255, 0.08);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  /* Wordmark in the page header */
+  .wordmark {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    color: var(--paper);
+    text-decoration: none;
+    margin-bottom: 80px;
+  }
+
+  h1, h2, h3, h4 {
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    margin: 0 0 0.5em;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.05;
+    margin-bottom: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-top: 56px;
+    margin-bottom: 16px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: 0 0 1.2em;
+  }
+
+  .lede {
+    font-size: 22px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 48px;
+  }
+
+  /* Pinned-comment-style block at the top */
+  .tl-dr {
+    background: rgba(62, 91, 255, 0.08);
+    border-left: 3px solid var(--cobalt);
+    padding: 20px 24px;
+    margin: 32px 0 48px;
+    border-radius: 0 6px 6px 0;
+  }
+  .tl-dr p {
+    margin: 0;
+  }
+  .tl-dr p + p { margin-top: 0.75em; }
+
+  ul, ol {
+    margin: 0 0 1.2em;
+    padding-left: 1.4em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  /* The rubric block — five cards */
+  .rubric {
+    display: grid;
+    gap: 12px;
+    margin: 24px 0 32px;
+  }
+  .rubric-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    border: 1px solid var(--rule);
+  }
+  .rubric-row .axis {
+    font-weight: 600;
+  }
+  .rubric-row .weight {
+    color: var(--cobalt);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .rubric-row .mean {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+  }
+
+  code, pre {
+    font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+    font-size: 14px;
+  }
+
+  .footer {
+    margin-top: 96px;
+    padding-top: 32px;
+    border-top: 1px solid var(--rule);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+
+  .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    background: rgba(62, 91, 255, 0.15);
+    color: var(--cobalt);
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-right: 4px;
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: -16px;
+    margin-bottom: 48px;
+  }
+
+  /* Mobile */
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    h1 { font-size: 36px; }
+    h2 { font-size: 22px; }
+    .lede { font-size: 18px; }
+    .page { padding: 32px 16px 64px; }
+    .rubric-row { grid-template-columns: 1fr; gap: 4px; }
+    .rubric-row .weight { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<a href="../" class="wordmark">[ ZERO STAT ]</a>
+
+<h1>How Zero Stat ranks.</h1>
+<p class="lede">A transparent, defensible method for ranking AI products. We publish the rubric. We publish the data sources. We don't move goalposts between videos.</p>
+
+<p class="meta"><span class="pill">v1</span> <span class="pill">2026-06-28</span> Last updated by Newton &middot; the editor-in-chief. The Opus that authored the original charter lives somewhere in this doc's git history, but the rubric is human-curated now.</p>
+
+<div class="tl-dr">
+<p><strong>The pinned-comment version (paste into YouTube Studio if you only need one paragraph):</strong></p>
+<p>We rank on five dimensions, weighted by what matters to business buyers: <strong>capability 30%</strong>, <strong>cost-efficiency 25%</strong>, <strong>reliability 20%</strong>, <strong>ecosystem/automation 15%</strong>, <strong>momentum 10%</strong>. Every product is rated 1 to 10 on each axis against its category peers (LLMs vs LLMs, video models vs video models). Composite is the weighted sum. Sources are linked under every number on-screen and in the description.</p>
+</div>
+
+<h2>The five axes</h2>
+
+<p>Every product on every Ranked video gets these five scores. The dimensions are constant across videos &mdash; only the shortlist changes. Composite is the weighted sum; it's a 1&ndash;10 number, and it's the basis for the on-screen tier list.</p>
+
+<div class="rubric">
+  <div class="rubric-row">
+    <div>
+      <div class="axis">Capability</div>
+      <span class="mean">Raw task performance: can it actually do the job at the level a decision-maker needs? Benchmarks (MMLU, SWE-bench, GPQA, HumanEval), our own test prompts when relevant, public eval suites, real-world performance for the named use case.</span>
+    </div>
+    <div class="weight">30%</div>
+  </div>
+  <div class="rubric-row">
+    <div>
+      <div class="axis">Cost-efficiency</div>
+      <span class="mean">Performance per dollar. Input + output pricing per M tokens, subscription cost, total cost including iteration burn. Critical for high-volume use; weighted heavily because that's where most business buyers make or save money.</span>
+    </div>
+    <div class="weight">25%</div>
+  </div>
+  <div class="rubric-row">
+    <div>
+      <div class="axis">Reliability</div>
+      <span class="mean">Uptime, consistency, hallucination rate, prompt-to-prompt variance. Reliability matters more for production systems than for one-shot demos.</span>
+    </div>
+    <div class="weight">20%</div>
+  </div>
+  <div class="rubric-row">
+    <div>
+      <div class="axis">Ecosystem / automation</div>
+      <span class="mean">API quality, MCP support, SDK ergonomics, integrations, tooling maturity &mdash; the "can I actually plug this in?" axis. Weighted higher for coding and agent categories where the harness matters as much as the model.</span>
+    </div>
+    <div class="weight">15%</div>
+  </div>
+  <div class="rubric-row">
+    <div>
+      <div class="axis">Momentum</div>
+      <span class="mean">Release cadence, trajectory, signal that the vendor is investing vs. drifting. Critical for fast-moving categories (image, video, coding) where the leaderboard churns every 2&ndash;3 months.</span>
+    </div>
+    <div class="weight">10%</div>
+  </div>
+</div>
+
+<h2>Why these weights, and why they don't change per video</h2>
+
+<p>A "best of" video is only as credible as its rubric. The weights above are <em>the channel's rubric</em> &mdash; they're written into the Stat Sheet's ranking-rubric block and reviewed only when we add a new category. <strong>The rubric is constant; only the shortlist changes.</strong></p>
+
+<p>Three implications:</p>
+
+<ol>
+  <li>A "best cheap-volume LLM" Ranked and a "best creative-writing LLM" Ranked both use the same five axes with the same weights &mdash; we just steer different contenders into each shortlist based on the task, and our commentary weighs the verdict differently within the same scoring frame.</li>
+  <li>If a viewer's answer is "you under-weighted cost" &mdash; fair debate, but the answer is the same: the rubric is the rubric, your call to use it or not. We can surface scenarios where a re-weight would change the winner (e.g., "at cost-efficiency = 50%, this is the new ranking").</li>
+  <li>If a viewer's answer is "you forgot about [X axis]" &mdash; they may be right. Open it as a tracked suggestion; revise at the next quarterly review. We do not move goalposts between videos.</li>
+</ol>
+
+<h2>Per-category nuances</h2>
+
+<p>The five axes are the same everywhere, but how each axis plays out varies by category:</p>
+
+<h3>LLM (text-only and multimodal)</h3>
+<ul>
+  <li><strong>Capability</strong>: benchmark-driven (MMLU, GPQA, HumanEval, SWE-bench, our own prompts).</li>
+  <li><strong>Cost-efficiency</strong>: heavily per-token &mdash; spans cheap classification to long-context reasoning.</li>
+  <li><strong>Reliability</strong>: matters more for production than demos.</li>
+</ul>
+
+<h3>Image generation</h3>
+<ul>
+  <li><strong>Capability</strong>: partly benchmark (Arena scores, prompt-following evals), partly taste &mdash; we cite specific failure cases in commentary, not "this looks better."</li>
+  <li><strong>Cost-efficiency</strong>: matters less for marketing teams (low volume), more for app builders (high volume).</li>
+  <li><strong>Momentum</strong>: weighted slightly higher &mdash; image-gen ships every 2&ndash;3 months.</li>
+</ul>
+
+<h3>Video generation</h3>
+<ul>
+  <li><strong>Capability</strong>: divided into raw visual quality vs. prompt fidelity vs. motion coherence. Scored separately in commentary.</li>
+  <li><strong>Cost-efficiency</strong>: brutal because iteration burn dominates (5&ndash;10 generations per usable 30s clip).</li>
+  <li><strong>Momentum</strong>: the single highest-weighted axis here.</li>
+</ul>
+
+<h3>Voice / TTS</h3>
+<ul>
+  <li><strong>Reliability</strong> matters more than capability &mdash; failure mode is wrong pronunciation, artifacts.</li>
+  <li><strong>Capability</strong> is partly subjective; we lean on crowdsourced samples and real VO test renders.</li>
+</ul>
+
+<h3>Coding / agentic coding</h3>
+<ul>
+  <li><strong>Capability</strong>: benchmark-anchored (SWE-bench Verified, multi-file refactor evals).</li>
+  <li><strong>Ecosystem</strong>: weighted higher than for chat LLMs (the value of Cursor / Claude Code is the IDE + harness).</li>
+  <li><strong>Momentum</strong>: critical &mdash; this category shipped more in 2024&ndash;2025 than the prior decade.</li>
+</ul>
+
+<h3>Avatar (talking-head)</h3>
+<ul>
+  <li><strong>Capability</strong> = realism + lip-sync + emotion.</li>
+  <li><strong>Reliability</strong> includes the credit-burn problem (unreliable = "we ran out of credits mid-render").</li>
+  <li><strong>Ecosystem</strong> includes API + MCP + lip-sync-with-external-audio support.</li>
+</ul>
+
+<h2>Where the data comes from</h2>
+
+<p>Every claim in a Ranked video traces to one of:</p>
+
+<ol>
+  <li><strong>Vendor docs / release notes</strong> &mdash; primary, preferred (pricing pages, product docs).</li>
+  <li><strong>Independent benchmarks</strong> &mdash; SWE-bench, MMLU, Artificial Analysis, etc.</li>
+  <li><strong>Our test prompts</strong> &mdash; limited use, when a category is moving fast and benchmarks lag reality.</li>
+  <li><strong>Reputable press / analysis</strong> &mdash; for context, not as a source of truth on numbers.</li>
+</ol>
+
+<p><strong>What we don't use:</strong></p>
+
+<ul>
+  <li>Vendor marketing copy as a source of fact.</li>
+  <li>Aggregator listicles ("top 10 AI tools!") as a source.</li>
+  <li>Single-sourced rumors. If a number is from one place and we can't corroborate, we say "unconfirmed" or skip it.</li>
+  <li>Anything we can't link to in the Stat Sheet's sources array.</li>
+</ul>
+
+<h2>What we publish, and what we hold back</h2>
+
+<p><strong>We publish:</strong> the rubric, the weights, what each axis means, where the data comes from.</p>
+
+<p><strong>We hold back:</strong> the exact 1&ndash;10 scores per product, the composite arithmetic, in-flight Stat Sheet annotations.</p>
+
+<p>Why: scores are opinion. The rubric is the <em>method</em>. Viewers who care about the method can re-derive their own composite from the public rubric + their own weighting. It's the journalism version of showing your work without doxxing your sources.</p>
+
+<h2>What viewers should take away</h2>
+
+<p>Every Ranked is a <em>defensible opinion</em>, not a <em>true ranking</em>. The method is rigorous. The picks are good faith. Disagree with our picks? Cite a specific rubric violation ("you said X had 8 reliability but their uptime is closer to 6"). We'll either correct or explain. Don't argue vibes; argue axes.</p>
+
+<h2>Definitions</h2>
+
+<dl>
+  <dt><strong>Mapped (in Stat Sheet)</strong></dt>
+  <dd>Identity + qualitative fields populated; volatile fields (current version, pricing, context window, benchmarks, our rating) are null and listed in the product's <code>_verify</code> array. Stable across re-scores pending a vendor change.</dd>
+  <dt><strong>Worked example</strong></dt>
+  <dd>All fields populated with verified, sourced data. Use as a gold-standard template for how to score.</dd>
+  <dt><strong>Composite</strong></dt>
+  <dd>Weighted sum of the five axis scores. Always 1&ndash;10. Meanings are comparative within a category, not absolute.</dd>
+</dl>
+
+<h2>Revision log</h2>
+
+<p>We don't move goalposts between videos. The rubric only changes at quarterly review with a documented revision entry here.</p>
+
+<table style="width:100%; border-collapse: collapse; margin-top: 16px;">
+  <thead>
+    <tr style="text-align: left; border-bottom: 1px solid var(--rule);">
+      <th style="padding: 8px 0; font-weight: 600;">Date</th>
+      <th style="padding: 8px 0; font-weight: 600;">Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid var(--rule);">
+      <td style="padding: 8px 0;">2026-06-28</td>
+      <td style="padding: 8px 0;">Initial draft, posted publicly for week-1 Ranked launch. Authored by Newton (the editor-in-chief) on behalf of <em>Opus</em>, the master-prompt author of the channel's charter.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="footer">
+  <p>[ ZERO STAT ] &mdash; The daily briefing on AI for people who make decisions.</p>
+  <p>This document is part of the channel's editorial standards. <a href="../" style="color: var(--cobalt);">Back to Zero Stat</a>.</p>
+</div>
+
+</div>
+</body>
+</html>
