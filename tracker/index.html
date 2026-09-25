@@ -88,10 +88,36 @@
   }
   .tool:hover { border-color: var(--cobalt); }
   .tool-head {
-    display: flex; justify-content: space-between; align-items: baseline;
-    gap: 16px; margin-bottom: 8px; flex-wrap: wrap;
+    display: flex; align-items: center; gap: 16px;
+    margin-bottom: 12px;
   }
-  .tool-name { font-size: 22px; font-weight: 600; letter-spacing: -0.02em; }
+  .tool-logo {
+    width: 48px; height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+  }
+  .tool-logo img {
+    width: 32px; height: 32px;
+    object-fit: contain;
+  }
+  .tool-logo-fallback {
+    width: 32px; height: 32px;
+    background: var(--cobalt);
+    color: var(--paper);
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 600;
+  }
+  .tool-head-text {
+    flex: 1; min-width: 0;
+  }
+  .tool-name {
+    font-size: 22px; font-weight: 600; letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
   .tool-name a { color: var(--paper); text-decoration: none; }
   .tool-name a:hover { color: var(--cobalt); }
   .tool-vendor { color: var(--muted); font-size: 14px; margin-left: 8px; font-weight: 400; }
@@ -99,8 +125,27 @@
     font-size: 12px; color: var(--muted);
     text-transform: uppercase; letter-spacing: 0.05em;
     padding: 2px 8px; border: 1px solid var(--rule); border-radius: 4px;
+    flex-shrink: 0;
   }
   .tool-pitch { color: rgba(255, 255, 255, 0.85); margin: 8px 0 12px; }
+  .tool-report {
+    color: rgba(255, 255, 255, 0.75);
+    margin: 16px 0 12px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 8px;
+    border-left: 2px solid var(--cobalt);
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  .tool-report h4 {
+    font-size: 13px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--cobalt);
+    margin: 16px 0 4px;
+  }
+  .tool-report h4:first-child { margin-top: 0; }
+  .tool-report p { margin: 0 0 12px; }
   .tool-take {
     background: rgba(62, 91, 255, 0.06);
     border-left: 3px solid var(--cobalt);
@@ -226,16 +271,29 @@
       const rubric = ['capability', 'cost', 'reliability', 'ecosystem', 'momentum']
         .map(k => `<div class="rubric-cell"><span class="score">${t.rubric_scores[k]}</span>${k[0].toUpperCase()}</div>`)
         .join('');
+
+      // Logo block: image if available, fallback to first letter
+      const logoHtml = t.image_url
+        ? `<div class="tool-logo"><img src="${escapeAttr(t.image_url)}" alt="${escapeAttr(t.name)} logo" loading="lazy"></div>`
+        : `<div class="tool-logo"><div class="tool-logo-fallback">${escapeHtml((t.name || '?')[0].toUpperCase())}</div></div>`;
+
+      // Report block: only render if report object exists and has prose
+      const reportHtml = (t.report && t.report.sections && t.report.sections.length)
+        ? `<div class="tool-report">${renderReportSections(t.report.sections)}</div>`
+        : '';
+
       return `
         <div class="tool">
           <div class="tool-head">
-            <div>
-              <span class="tool-name"><a href="${t.url}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></span>
-              <span class="tool-vendor">${escapeHtml(t.vendor)}</span>
+            ${logoHtml}
+            <div class="tool-head-text">
+              <div class="tool-name"><a href="${escapeAttr(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></div>
+              <div class="tool-vendor">${escapeHtml(t.vendor)}</div>
             </div>
             <span class="tool-cat">${escapeHtml(t.category)}</span>
           </div>
           <p class="tool-pitch">${escapeHtml(t.one_line_pitch)}</p>
+          ${reportHtml}
           <div class="tool-take">${escapeHtml(t.your_take)}</div>
           <div class="rubric">${rubric}</div>
           <div class="tool-meta">
@@ -247,11 +305,26 @@
     }).join('');
   }
 
+  function renderReportSections(sections) {
+    return sections.map(sec => {
+      // Render section heading + prose if prose exists
+      if (!sec.prose) return '';
+      const heading = sec.heading || sec.name.replace(/_/g, ' ');
+      // Strip any HTML for safety; render as plain text paragraphs
+      const paras = sec.prose.split(/\n+/).filter(p => p.trim()).map(p => `<p>${escapeHtml(p.trim())}</p>`).join('');
+      return `<h4>${escapeHtml(heading)}</h4>${paras}`;
+    }).join('');
+  }
+
   function escapeHtml(s) {
     if (!s) return '';
     return String(s).replace(/[&<>"']/g, c => ({
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
     }[c]));
+  }
+
+  function escapeAttr(s) {
+    return escapeHtml(s);
   }
 
   // Wire up filters
