@@ -1,0 +1,1565 @@
+{
+  "generated_at": "2026-09-25",
+  "schema_version": "1.0",
+  "tool_count": 30,
+  "tools": [
+    {
+      "tool_id": "arlo-camera",
+      "name": "Arlo Cameras",
+      "vendor": "Arlo Technologies",
+      "category": "home-ai",
+      "url": "https://www.arlo.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Essential cameras",
+          "price": "$99.99-149.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Pro cameras",
+          "price": "$199.99-299.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Arlo Secure subscription",
+          "price": "$7.99-24.99/mo",
+          "period": "month",
+          "notes": "Required for AI features"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "Alexa",
+        "Google Assistant",
+        "HomeKit",
+        "SmartThings"
+      ],
+      "one_line_pitch": "Wire-free security cameras with AI detection of people, packages, vehicles, animals.",
+      "your_take": "AI detection across multiple object types is genuinely useful. Subscription required for most features. The wire-free design is real flexibility. Pick Arlo over Ring if you don't want Amazon in your home.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.arlo.com/en-us/cameras",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "august-lock",
+      "name": "August Smart Lock",
+      "vendor": "August Home (ASSA ABLOY)",
+      "category": "home-ai",
+      "url": "https://august.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Wi-Fi Smart Lock",
+          "price": "$179.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Smart Lock Pro",
+          "price": "$229.99",
+          "period": "one-time"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Alexa",
+        "Google Assistant",
+        "HomeKit",
+        "Yale",
+        "Honeywell"
+      ],
+      "one_line_pitch": "Smart lock that retrofits onto your existing deadbolt.",
+      "your_take": "Best smart lock for renters because it doesn't replace the lock, just adds smarts. Auto-lock and auto-unlock based on phone proximity works well. Skip if you have a mortise lock.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 4,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://august.com/products/august-wifi-smart-lock",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "ecobee",
+      "name": "ecobee Smart Thermostat",
+      "vendor": "ecobee Inc.",
+      "category": "home-ai",
+      "url": "https://www.ecobee.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Smart Thermostat Premium",
+          "price": "$249.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Smart Thermostat Essential",
+          "price": "$149.99",
+          "period": "one-time"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Alexa built-in",
+        "Google Assistant",
+        "HomeKit",
+        "SmartThings",
+        "IFTTT"
+      ],
+      "one_line_pitch": "Smart thermostat with built-in Alexa and room sensors.",
+      "your_take": "Better than Nest for homes with multiple rooms or uneven heating. The room sensors are the differentiator. Built-in Alexa is convenient if you don't have an Echo.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 4,
+        "reliability": 5,
+        "ecosystem": 5,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.ecobee.com/en-us/smart-thermostats/",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "roomba",
+      "name": "iRobot Roomba",
+      "vendor": "iRobot Corporation",
+      "category": "home-ai",
+      "url": "https://www.irobot.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Roomba 600 series",
+          "price": "$249-329",
+          "period": "one-time"
+        },
+        {
+          "name": "Roomba i-series",
+          "price": "$399-799",
+          "period": "one-time"
+        },
+        {
+          "name": "Roomba s9+",
+          "price": "$999",
+          "period": "one-time"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "Alexa",
+        "Google Assistant",
+        "iRobot app"
+      ],
+      "one_line_pitch": "Robot vacuum with room mapping and learning routines.",
+      "your_take": "The category leader for years. The newer models (i-series, s9) actually map and learn your home, vs the older ones that just bump around. Worth the upgrade if you have a multi-room home.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.irobot.com/en_US/roomba",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "nest-doorbell",
+      "name": "Nest Doorbell",
+      "vendor": "Google Nest",
+      "category": "home-ai",
+      "url": "https://store.google.com/us/product/nest_doorbell_battery",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Doorbell (battery)",
+          "price": "$179.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Doorbell (wired)",
+          "price": "$229.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Nest Aware subscription",
+          "price": "$8-15/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "Google Home",
+        "Nest cameras",
+        "Chromecast"
+      ],
+      "one_line_pitch": "Google's video doorbell with package and familiar-face detection.",
+      "your_take": "Better familiar-face detection than Ring. Requires Nest Aware subscription for most features. Pick if you're in Google ecosystem; pick Ring if you're in Amazon.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://store.google.com/us/product/nest_doorbell_battery",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "nest-thermostat",
+      "name": "Nest Thermostat",
+      "vendor": "Google Nest",
+      "category": "home-ai",
+      "url": "https://store.google.com/us/product/nest_thermostat",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Thermostat device",
+          "price": "$129.99-279.99",
+          "period": "one-time"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Google Home",
+        "Alexa",
+        "HomeKit (limited)",
+        "IFTTT"
+      ],
+      "one_line_pitch": "Learning thermostat that programs itself based on your habits.",
+      "your_take": "Works as advertised for households with predictable schedules. The 'learning' is mostly just observation-based scheduling, not magic. Worth it if you have a heat-pump system where the savings pay back.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 5,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://store.google.com/us/product/nest_thermostat",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "philips-hue",
+      "name": "Philips Hue",
+      "vendor": "Signify",
+      "category": "home-ai",
+      "url": "https://www.philips-hue.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Starter kit",
+          "price": "$99-199",
+          "period": "one-time"
+        },
+        {
+          "name": "White bulbs (single)",
+          "price": "$15-25",
+          "period": "each"
+        },
+        {
+          "name": "Color bulbs (single)",
+          "price": "$50-60",
+          "period": "each"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Alexa",
+        "Google Assistant",
+        "HomeKit",
+        "SmartThings",
+        "IFTTT"
+      ],
+      "one_line_pitch": "Smart lighting with routines, motion sensors, and color scenes.",
+      "your_take": "The premium choice in smart lighting. Pricier than LIFX or Wyze but the ecosystem is more mature. The Bridge is required for full functionality - that adds to the upfront cost.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 5,
+        "ecosystem": 5,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.philips-hue.com/en-us/p/hue-starter-kits",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "reolink",
+      "name": "Reolink",
+      "vendor": "Reolink Digital Technology",
+      "category": "home-ai",
+      "url": "https://reolink.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Argus series",
+          "price": "$99-199",
+          "period": "one-time"
+        },
+        {
+          "name": "RLC series (PoE)",
+          "price": "$79-249",
+          "period": "one-time"
+        },
+        {
+          "name": "Duo series",
+          "price": "$199-399",
+          "period": "one-time"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Alexa",
+        "Google Assistant",
+        "Home Assistant",
+        "NVR"
+      ],
+      "one_line_pitch": "Security cameras with local storage option and no mandatory subscription.",
+      "your_take": "Best value in home security cameras. No subscription required for most features. The PoE (wired) options are best for permanent installations. Pick Reolink over Arlo if you don't want monthly fees.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 5,
+        "reliability": 4,
+        "ecosystem": 3,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://reolink.com/product/",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "ring-doorbell",
+      "name": "Ring Video Doorbell",
+      "vendor": "Amazon (Ring)",
+      "category": "home-ai",
+      "url": "https://ring.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Battery Doorbell",
+          "price": "$99.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Wired Doorbell Pro",
+          "price": "$229.99",
+          "period": "one-time"
+        },
+        {
+          "name": "Ring Protect subscription",
+          "price": "$3.99-19.99/mo",
+          "period": "month",
+          "notes": "Required for video history"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "Alexa",
+        "Ring app",
+        "Smart locks (limited)"
+      ],
+      "one_line_pitch": "Video doorbell with motion alerts and package detection.",
+      "your_take": "The default video doorbell in 2026. The package detection AI is real and works. Privacy concerns are real too - Amazon owns your video. Compete with Nest Doorbell if you're already in Google ecosystem.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://ring.com/doorbell-cameras",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "roborock",
+      "name": "Roborock",
+      "vendor": "Roborock (Xiaomi)",
+      "category": "home-ai",
+      "url": "https://us.roborock.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Q-series",
+          "price": "$399-599",
+          "period": "one-time"
+        },
+        {
+          "name": "S-series",
+          "price": "$749-1599",
+          "period": "one-time"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "Alexa",
+        "Google Assistant",
+        "Xiaomi Home",
+        "Apple Watch"
+      ],
+      "one_line_pitch": "Robot vacuum and mop with advanced mapping. Best-in-class obstacle avoidance.",
+      "your_take": "Often outperforms Roomba at lower prices. The mop functionality is real, not gimmick. Best choice if you want vacuum+mop in one device.",
+      "rubric_scores": {
+        "capability": 5,
+        "cost": 4,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://us.roborock.com/pages/robot-vacuum-cleaner",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "canva",
+      "name": "Canva",
+      "vendor": "Canva Pty Ltd",
+      "category": "smb-general",
+      "url": "https://www.canva.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo",
+          "period": "month"
+        },
+        {
+          "name": "Teams",
+          "price": "$10/user/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "Google Drive",
+        "Dropbox",
+        "Slack",
+        "HubSpot"
+      ],
+      "one_line_pitch": "Visual design tool with AI features for social posts, presentations, and basic video.",
+      "your_take": "Genuinely useful for non-designers. The Magic Studio AI features are real time-savers. Skip if you only need static designs.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 5,
+        "reliability": 5,
+        "ecosystem": 4,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://www.canva.com/pricing/",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "chatgpt",
+      "name": "ChatGPT",
+      "vendor": "OpenAI",
+      "category": "smb-general",
+      "url": "https://chatgpt.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Plus",
+          "price": "$20/mo",
+          "period": "month"
+        },
+        {
+          "name": "Team",
+          "price": "$25/user/mo",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$200/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "yes",
+      "api_available": true,
+      "integrations": [
+        "Zapier",
+        "Make",
+        "Slack",
+        "Microsoft 365",
+        "Google Workspace"
+      ],
+      "one_line_pitch": "The most widely-used general AI assistant, with a broad ecosystem of integrations and plugins.",
+      "your_take": "Default choice for most non-technical users. The Plus tier at $20/mo is the most defensible price point for small business use. The Team tier's value is mostly admin controls and shared workspace, not model quality.",
+      "rubric_scores": {
+        "capability": 5,
+        "cost": 4,
+        "reliability": 5,
+        "ecosystem": 5,
+        "momentum": 5
+      },
+      "sources": [
+        {
+          "url": "https://chatgpt.com",
+          "date": "2026-09-25"
+        },
+        {
+          "url": "https://openai.com/chatgpt/pricing/",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "claude",
+      "name": "Claude",
+      "vendor": "Anthropic",
+      "category": "smb-general",
+      "url": "https://claude.ai",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "period": "month"
+        },
+        {
+          "name": "Team",
+          "price": "$25/user/mo",
+          "period": "month"
+        },
+        {
+          "name": "Max",
+          "price": "$100-200/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "yes",
+      "api_available": true,
+      "integrations": [
+        "Zapier",
+        "Make",
+        "Slack",
+        "Notion",
+        "Google Workspace"
+      ],
+      "one_line_pitch": "Anthropic's assistant. Strong at long-form writing and analysis, weaker at image generation.",
+      "your_take": "Best in class for writing-heavy work and document analysis. The Max tier exists mostly for power users who hit rate limits; small business owners won't need it.",
+      "rubric_scores": {
+        "capability": 5,
+        "cost": 4,
+        "reliability": 5,
+        "ecosystem": 4,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://claude.ai",
+          "date": "2026-09-25"
+        },
+        {
+          "url": "https://www.anthropic.com/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "copy-ai",
+      "name": "Copy.ai",
+      "vendor": "Copy.ai Inc.",
+      "category": "smb-general",
+      "url": "https://www.copy.ai",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$49/mo",
+          "period": "month"
+        },
+        {
+          "name": "Team",
+          "price": "$249/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Zapier",
+        "HubSpot",
+        "Salesforce",
+        "Slack"
+      ],
+      "one_line_pitch": "AI copywriting workflows for marketing and sales teams.",
+      "your_take": "Workflow-first approach. Worth trying if Jasper feels too expensive. Same caveat as Jasper: solo operators probably don't need this.",
+      "rubric_scores": {
+        "capability": 3,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.copy.ai/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "descript",
+      "name": "Descript",
+      "vendor": "Descript Inc.",
+      "category": "smb-general",
+      "url": "https://www.descript.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Hobbyist",
+          "price": "$16/mo",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$24/mo",
+          "period": "month"
+        },
+        {
+          "name": "Business",
+          "price": "$33/user/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "YouTube",
+        "Riverside",
+        "Zoom"
+      ],
+      "one_line_pitch": "Audio/video editor that edits by editing text. AI transcription + filler-word removal.",
+      "your_take": "Genuinely different from other editors. The 'edit audio by editing text' workflow is real, not gimmick. Pricing jumped in 2024; check current tiers.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 3,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.descript.com/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "elevenlabs",
+      "name": "ElevenLabs",
+      "vendor": "ElevenLabs Inc.",
+      "category": "smb-general",
+      "url": "https://elevenlabs.io",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Starter",
+          "price": "$5/mo",
+          "period": "month"
+        },
+        {
+          "name": "Creator",
+          "price": "$22/mo",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$99/mo",
+          "period": "month"
+        },
+        {
+          "name": "Scale",
+          "price": "$330/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "API",
+        "Web UI",
+        "Zapier",
+        "Make"
+      ],
+      "one_line_pitch": "Voice synthesis and voice cloning. Best quality available for English.",
+      "your_take": "If voice is your product (podcast, video narration, audiobooks), this is the default. The free tier is enough to evaluate. The real cost comes from minutes-of-audio, not the subscription.",
+      "rubric_scores": {
+        "capability": 5,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 5
+      },
+      "sources": [
+        {
+          "url": "https://elevenlabs.io/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "fireflies",
+      "name": "Fireflies.ai",
+      "vendor": "Fireflies.ai Inc.",
+      "category": "smb-general",
+      "url": "https://fireflies.ai",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$18/user/mo",
+          "period": "month"
+        },
+        {
+          "name": "Business",
+          "price": "$29/user/mo",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Quote",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Zoom",
+        "Google Meet",
+        "Teams",
+        "Slack",
+        "Salesforce",
+        "HubSpot",
+        "30+ others"
+      ],
+      "one_line_pitch": "Meeting transcription and analysis. Direct competitor to Otter with deeper CRM integrations.",
+      "your_take": "Better than Otter if you live in Salesforce or HubSpot. Worse if you don't. The integrations are the differentiator.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 5,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://fireflies.ai/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "gemini",
+      "name": "Gemini",
+      "vendor": "Google",
+      "category": "smb-general",
+      "url": "https://gemini.google.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Google AI Pro",
+          "price": "$20/mo",
+          "period": "month"
+        },
+        {
+          "name": "Google AI Ultra",
+          "price": "$250/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "yes",
+      "api_available": true,
+      "integrations": [
+        "Google Workspace",
+        "Gmail",
+        "Drive",
+        "Docs",
+        "Android"
+      ],
+      "one_line_pitch": "Google's assistant, deeply integrated into Workspace and the Android ecosystem.",
+      "your_take": "If you live in Google Workspace, this is the obvious default. If you don't, the integration advantage doesn't apply and the underlying model is comparable to competitors.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 5,
+        "ecosystem": 5,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://gemini.google.com",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "grammarly",
+      "name": "Grammarly",
+      "vendor": "Grammarly Inc.",
+      "category": "smb-general",
+      "url": "https://www.grammarly.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Premium",
+          "price": "$12/mo",
+          "period": "month"
+        },
+        {
+          "name": "Business",
+          "price": "$15/user/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": false,
+      "integrations": [
+        "Browser extension",
+        "MS Office",
+        "Google Docs",
+        "Slack"
+      ],
+      "one_line_pitch": "Writing assistant focused on grammar, clarity, and tone. Works where you already write.",
+      "your_take": "Useful, not transformative. The free tier catches the basics. Worth the $12/mo if you write a lot of external email. Skip if you don't.",
+      "rubric_scores": {
+        "capability": 3,
+        "cost": 4,
+        "reliability": 5,
+        "ecosystem": 5,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "heygen",
+      "name": "HeyGen",
+      "vendor": "HeyGen Inc.",
+      "category": "smb-general",
+      "url": "https://www.heygen.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Creator",
+          "price": "$24/mo",
+          "period": "month"
+        },
+        {
+          "name": "Business",
+          "price": "$72/mo",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Quote",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Zapier",
+        "HubSpot",
+        "YouTube"
+      ],
+      "one_line_pitch": "AI video generation with avatars. Similar to Synthesia, more marketing-creator focused.",
+      "your_take": "Better avatars and more natural-looking output than Synthesia at similar price points. For small business marketing videos, the choice between them comes down to UI feel and specific avatar library.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://www.heygen.com/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "intercom-fin",
+      "name": "Intercom Fin",
+      "vendor": "Intercom Inc.",
+      "category": "smb-general",
+      "url": "https://www.intercom.com/fin",
+      "pricing_model": "usage",
+      "pricing_tiers": [
+        {
+          "name": "Per-resolution",
+          "price": "$0.99 per resolved conversation",
+          "period": "usage",
+          "notes": "Plus Intercom plan cost"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Intercom platform",
+        "Help center",
+        "Inbox"
+      ],
+      "one_line_pitch": "AI customer service agent that resolves tickets autonomously. Charges per resolution.",
+      "your_take": "The per-resolution pricing model is interesting - you pay for outcomes, not seats. Real ROI math requires knowing your current cost per ticket. Skip if your ticket volume is low or your questions are complex.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 4,
+        "reliability": 4,
+        "ecosystem": 5,
+        "momentum": 5
+      },
+      "sources": [
+        {
+          "url": "https://www.intercom.com/fin",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "jasper",
+      "name": "Jasper",
+      "vendor": "Jasper AI Inc.",
+      "category": "smb-general",
+      "url": "https://www.jasper.ai",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Creator",
+          "price": "$49/mo",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$125/mo",
+          "period": "month"
+        },
+        {
+          "name": "Business",
+          "price": "Quote",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Webflow",
+        "Surfer SEO",
+        "Zapier",
+        "Make"
+      ],
+      "one_line_pitch": "Marketing-focused AI writing tool with brand voice and team workflows.",
+      "your_take": "Built for marketing teams that need brand-consistency at scale. For a solo operator, this is overkill compared to ChatGPT or Claude with a good prompt template.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 2,
+        "reliability": 4,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.jasper.ai/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "make",
+      "name": "Make",
+      "vendor": "Make (Celonis)",
+      "category": "smb-general",
+      "url": "https://make.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Core",
+          "price": "$9/mo",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$16/mo",
+          "period": "month"
+        },
+        {
+          "name": "Teams",
+          "price": "$29/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "yes",
+      "api_available": true,
+      "integrations": [
+        "1000+ apps",
+        "Webhooks",
+        "HTTP"
+      ],
+      "one_line_pitch": "Visual automation builder. Cheaper than Zapier, steeper learning curve.",
+      "your_take": "The right choice if you outgrow Zapier's pricing or want more control. Not the right choice for your first automation tool - the UI is more powerful but more confusing.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 4,
+        "reliability": 5,
+        "ecosystem": 4,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://make.com/en/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "midjourney",
+      "name": "Midjourney",
+      "vendor": "Midjourney Inc.",
+      "category": "smb-general",
+      "url": "https://www.midjourney.com",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Basic",
+          "price": "$10/mo",
+          "period": "month"
+        },
+        {
+          "name": "Standard",
+          "price": "$30/mo",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$60/mo",
+          "period": "month"
+        },
+        {
+          "name": "Mega",
+          "price": "$120/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Discord (legacy)",
+        "Web UI",
+        "API"
+      ],
+      "one_line_pitch": "Image generation, currently the quality leader for stylized or artistic output.",
+      "your_take": "Best in class for stylized imagery. For product photography or corporate work, alternatives like Flux or SDXL are comparable at lower cost.",
+      "rubric_scores": {
+        "capability": 5,
+        "cost": 3,
+        "reliability": 4,
+        "ecosystem": 3,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://docs.midjourney.com/docs/plans",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "notion-ai",
+      "name": "Notion AI",
+      "vendor": "Notion Labs",
+      "category": "smb-general",
+      "url": "https://www.notion.so/product/ai",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Add-on",
+          "price": "$10/user/mo",
+          "period": "month",
+          "notes": "Requires Notion plan"
+        }
+      ],
+      "mcp_support": "yes",
+      "api_available": true,
+      "integrations": [
+        "Notion workspace",
+        "Slack",
+        "Google Drive",
+        "GitHub"
+      ],
+      "one_line_pitch": "AI features inside Notion docs, databases, and projects.",
+      "your_take": "Only valuable if you already use Notion as your workspace. If you're not in Notion, this isn't a reason to start.",
+      "rubric_scores": {
+        "capability": 3,
+        "cost": 3,
+        "reliability": 5,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.notion.so/product/ai",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "otter",
+      "name": "Otter.ai",
+      "vendor": "Otter.ai Inc.",
+      "category": "smb-general",
+      "url": "https://otter.ai",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$16.99/mo",
+          "period": "month"
+        },
+        {
+          "name": "Business",
+          "price": "$30/user/mo",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Quote",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Zoom",
+        "Google Meet",
+        "Microsoft Teams",
+        "Slack",
+        "HubSpot"
+      ],
+      "one_line_pitch": "Meeting transcription and AI-generated summaries. Joins meetings as a notetaker.",
+      "your_take": "Useful for anyone who attends 5+ meetings a week. The meeting-joiner feature is the real product; the transcription is good but not the point.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 4,
+        "reliability": 4,
+        "ecosystem": 5,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://otter.ai/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "perplexity",
+      "name": "Perplexity",
+      "vendor": "Perplexity AI",
+      "category": "smb-general",
+      "url": "https://www.perplexity.ai",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Browser extension",
+        "iOS shortcut",
+        "API"
+      ],
+      "one_line_pitch": "AI answer engine that cites sources. Built for research, not just chat.",
+      "your_take": "Different product than ChatGPT or Claude. Built for 'I need to research X and have receipts.' The citations are the feature, not the chat.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 4,
+        "reliability": 4,
+        "ecosystem": 3,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://www.perplexity.ai",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "synthesia",
+      "name": "Synthesia",
+      "vendor": "Synthesia Ltd.",
+      "category": "smb-general",
+      "url": "https://www.synthesia.io",
+      "pricing_model": "paid",
+      "pricing_tiers": [
+        {
+          "name": "Starter",
+          "price": "$22/mo",
+          "period": "month",
+          "notes": "per seat, billed annually"
+        },
+        {
+          "name": "Creator",
+          "price": "$67/mo",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Quote",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "PowerPoint",
+        "YouTube",
+        "LMS systems"
+      ],
+      "one_line_pitch": "AI-generated video with synthetic presenters. Used heavily for corporate training.",
+      "your_take": "Real product with real customers (Unilever, Google, Nike). Honest version: the synthetic presenter is uncanny to most viewers. Use for internal training where that doesn't matter; avoid for customer-facing video.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 2,
+        "reliability": 5,
+        "ecosystem": 4,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.synthesia.io/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "tidio",
+      "name": "Tidio",
+      "vendor": "Tidio LLC",
+      "category": "smb-general",
+      "url": "https://www.tidio.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Starter",
+          "price": "$29/mo",
+          "period": "month"
+        },
+        {
+          "name": "Growth",
+          "price": "$749/mo",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Quote",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "no",
+      "api_available": true,
+      "integrations": [
+        "Shopify",
+        "WooCommerce",
+        "WordPress",
+        "Zapier",
+        "Mailchimp"
+      ],
+      "one_line_pitch": "Live chat + AI chatbot for small e-commerce and SaaS businesses.",
+      "your_take": "Right-sized for small businesses. Cheaper than Intercom for low-to-mid ticket volume. The 'Lyro' AI bot is competent but not state-of-the-art.",
+      "rubric_scores": {
+        "capability": 3,
+        "cost": 4,
+        "reliability": 4,
+        "ecosystem": 5,
+        "momentum": 3
+      },
+      "sources": [
+        {
+          "url": "https://www.tidio.com/pricing/",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    },
+    {
+      "tool_id": "zapier",
+      "name": "Zapier",
+      "vendor": "Zapier Inc.",
+      "category": "smb-general",
+      "url": "https://zapier.com",
+      "pricing_model": "freemium",
+      "pricing_tiers": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "month"
+        },
+        {
+          "name": "Starter",
+          "price": "$19.99/mo",
+          "period": "month"
+        },
+        {
+          "name": "Professional",
+          "price": "$49/mo",
+          "period": "month"
+        },
+        {
+          "name": "Team",
+          "price": "$299/mo",
+          "period": "month"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Quote",
+          "period": "month"
+        }
+      ],
+      "mcp_support": "yes",
+      "api_available": true,
+      "integrations": [
+        "7000+ apps",
+        "Webhooks",
+        "Tables"
+      ],
+      "one_line_pitch": "Automation between apps. Now with AI steps and AI-powered workflow building.",
+      "your_take": "The default automation layer for non-developers. The new AI features are real but the value is still the integration catalog, not the AI.",
+      "rubric_scores": {
+        "capability": 4,
+        "cost": 3,
+        "reliability": 5,
+        "ecosystem": 5,
+        "momentum": 4
+      },
+      "sources": [
+        {
+          "url": "https://zapier.com/pricing",
+          "date": "2026-09-25"
+        }
+      ],
+      "status": "active",
+      "last_checked": "2026-09-25",
+      "first_added": "2026-09-25"
+    }
+  ]
+}
