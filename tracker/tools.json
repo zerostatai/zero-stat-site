@@ -53,7 +53,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/arlo-camera.png",
+      "image_source": "vendor favicon via Google S2 (1584 bytes)"
     },
     {
       "tool_id": "august-lock",
@@ -100,7 +102,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/august-lock.png",
+      "image_source": "vendor favicon via Google S2 (341 bytes)"
     },
     {
       "tool_id": "ecobee",
@@ -147,7 +151,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/ecobee.png",
+      "image_source": "vendor favicon via Google S2 (1445 bytes)"
     },
     {
       "tool_id": "roomba",
@@ -197,7 +203,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/roomba.png",
+      "image_source": "vendor favicon via Google S2 (3560 bytes)"
     },
     {
       "tool_id": "nest-doorbell",
@@ -247,7 +255,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/nest-doorbell.png",
+      "image_source": "vendor favicon via Google S2 (1626 bytes)"
     },
     {
       "tool_id": "nest-thermostat",
@@ -288,7 +298,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/nest-thermostat.png",
+      "image_source": "vendor favicon via Google S2 (1626 bytes)"
     },
     {
       "tool_id": "philips-hue",
@@ -340,7 +352,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": null,
+      "image_source": null
     },
     {
       "tool_id": "reolink",
@@ -391,7 +405,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/reolink.png",
+      "image_source": "vendor favicon via Google S2 (350 bytes)"
     },
     {
       "tool_id": "ring-doorbell",
@@ -442,7 +458,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/ring-doorbell.png",
+      "image_source": "vendor favicon via Google S2 (1203 bytes)"
     },
     {
       "tool_id": "roborock",
@@ -488,7 +506,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/roborock.png",
+      "image_source": "vendor favicon via Google S2 (893 bytes)"
     },
     {
       "tool_id": "canva",
@@ -539,7 +559,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": null,
+      "image_source": null
     },
     {
       "tool_id": "chatgpt",
@@ -600,7 +622,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/chatgpt.png",
+      "image_source": "vendor favicon via Google S2 (2232 bytes)"
     },
     {
       "tool_id": "claude",
@@ -661,7 +685,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/claude.png",
+      "image_source": "vendor favicon via Google S2 (3116 bytes)"
     },
     {
       "tool_id": "copy-ai",
@@ -712,7 +738,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/copy-ai.png",
+      "image_source": "vendor favicon via Google S2 (801 bytes)"
     },
     {
       "tool_id": "descript",
@@ -767,7 +795,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/descript.png",
+      "image_source": "vendor favicon via Google S2 (930 bytes)"
     },
     {
       "tool_id": "elevenlabs",
@@ -828,7 +858,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/elevenlabs.png",
+      "image_source": "vendor favicon via Google S2 (170 bytes)"
     },
     {
       "tool_id": "fireflies",
@@ -887,7 +919,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/fireflies.png",
+      "image_source": "vendor favicon via Google S2 (1422 bytes)"
     },
     {
       "tool_id": "gemini",
@@ -939,7 +973,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/gemini.png",
+      "image_source": "vendor favicon via Google S2 (2774 bytes)"
     },
     {
       "tool_id": "grammarly",
@@ -990,7 +1026,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/grammarly.png",
+      "image_source": "vendor favicon via Google S2 (3117 bytes)"
     },
     {
       "tool_id": "heygen",
@@ -1045,7 +1083,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/heygen.png",
+      "image_source": "vendor favicon via Google S2 (3362 bytes)"
     },
     {
       "tool_id": "intercom-fin",
@@ -1086,7 +1126,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/intercom-fin.png",
+      "image_source": "vendor favicon via Google S2 (2329 bytes)"
     },
     {
       "tool_id": "jasper",
@@ -1137,7 +1179,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/jasper.png",
+      "image_source": "vendor favicon via Google S2 (1311 bytes)"
     },
     {
       "tool_id": "make",
@@ -1192,7 +1236,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": null,
+      "image_source": null
     },
     {
       "tool_id": "midjourney",
@@ -1247,7 +1293,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/midjourney.png",
+      "image_source": "vendor favicon via Google S2 (2011 bytes)"
     },
     {
       "tool_id": "notion-ai",
@@ -1289,7 +1337,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/notion-ai.png",
+      "image_source": "vendor favicon via Google S2 (1194 bytes)"
     },
     {
       "tool_id": "otter",
@@ -1346,7 +1396,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/otter.png",
+      "image_source": "vendor favicon via Google S2 (655 bytes)"
     },
     {
       "tool_id": "perplexity",
@@ -1391,7 +1443,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/perplexity.png",
+      "image_source": "vendor favicon via Google S2 (1558 bytes)"
     },
     {
       "tool_id": "synthesia",
@@ -1442,7 +1496,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/synthesia.png",
+      "image_source": "vendor favicon via Google S2 (805 bytes)"
     },
     {
       "tool_id": "tidio",
@@ -1499,7 +1555,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/tidio.png",
+      "image_source": "vendor favicon via Google S2 (1136 bytes)"
     },
     {
       "tool_id": "zapier",
@@ -1559,7 +1617,9 @@
       ],
       "status": "active",
       "last_checked": "2026-09-25",
-      "first_added": "2026-09-25"
+      "first_added": "2026-09-25",
+      "image_url": "assets/favicons/zapier.png",
+      "image_source": "vendor favicon via Google S2 (1799 bytes)"
     }
   ]
 }
