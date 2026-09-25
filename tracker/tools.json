@@ -300,7 +300,41 @@
       "last_checked": "2026-09-25",
       "first_added": "2026-09-25",
       "image_url": "assets/favicons/nest-thermostat.png",
-      "image_source": "vendor favicon via Google S2 (1626 bytes)"
+      "image_source": "vendor favicon via Google S2 (1626 bytes)",
+      "report": [
+        {
+          "name": "what_it_is",
+          "heading": "What it is",
+          "prose": "A learning thermostat that programs itself by watching when you adjust the temperature. Two models: the basic Nest Thermostat ($129.99) and the Learning Thermostat ($279.99). The cheaper one skips the rotating dial and a couple of sensors.\n\nMade by Google Nest, which bought the original Nest Labs in 2014. By 2026 it's the default smart thermostat if you're anywhere in the Google ecosystem."
+        },
+        {
+          "name": "what_problem_it_solves",
+          "heading": "What it's for",
+          "prose": "Programming a thermostat used to mean sitting down with the manual, decoding the 7-day schedule menu, and entering 'wake, leave, return, sleep' temperatures for every day. Nobody did this. Nest's bet is that the thermostat should learn your schedule from your manual adjustments instead.\n\nAfter about a week of use, it picks up patterns. Adjust the heat at 7am and down at 11pm for a few days and it'll start doing that automatically."
+        },
+        {
+          "name": "install_and_setup",
+          "heading": "Install and setup",
+          "prose": "If you have an existing low-voltage thermostat with a C-wire, install takes 20-30 minutes and the app walks you through it. No C-wire and you either need a power adapter ($30) or to call an electrician. Most US homes have the C-wire. Older homes without it are where this gets annoying.\n\nCompatibility caveat: works with most 24V systems (forced air, heat pump, radiant). Does NOT work with high-voltage systems common in some older European setups. Check Google's compatibility tool before buying."
+        },
+        {
+          "name": "what_actually_works",
+          "heading": "What actually works",
+          "prose": "The learning part is real. After a week or two it predicts your schedule with scary accuracy. The 'home/away' detection via phone location works if you always have your phone. Geofencing occasionally fires weirdly when you drive past your house but don't go in.\n\nIntegration with Google Home is seamless. Voice control through any Google Assistant device just works. Same with Alexa, less ."
+        },
+        {
+          "name": "what_doesnt",
+          "heading": "What doesn't",
+          "prose": "The 'smart' features that need a Nest Aware subscription ($8/mo) are the only ones that would justify calling this AI. Without it, it's just a programmable thermostat with a nice interface.\n\nThe motion sensor that used to drive 'auto-away' has been nerfed over the years. It used to detect you walking past and adjust. Now it barely reacts. Owners complain about this on every forum."
+        },
+        {
+          "name": "verdict",
+          "heading": "Verdict",
+          "prose": "Worth it if you have a heat pump or live in a climate with big day/night temperature swings. The learning pays back the $279 in 6-12 months for most homes. Skip the $129 model unless money is tight the missing features are exactly the ones that make Nest better than a $30 programmable thermostat."
+        }
+      ],
+      "report_generated_at": "2026-09-25T16:25:03.519813+00:00",
+      "report_voice_score": 100
     },
     {
       "tool_id": "philips-hue",
@@ -1128,7 +1162,41 @@
       "last_checked": "2026-09-25",
       "first_added": "2026-09-25",
       "image_url": "assets/favicons/intercom-fin.png",
-      "image_source": "vendor favicon via Google S2 (2329 bytes)"
+      "image_source": "vendor favicon via Google S2 (2329 bytes)",
+      "report": [
+        {
+          "name": "what_it_is",
+          "heading": "What it is",
+          "prose": "An AI customer service agent that lives inside Intercom and resolves support tickets autonomously. Built on top of GPT-4 class models, fine-tuned on your help center, and trained on past conversations your team has handled.\n\nDifferent from a chatbot: Fin doesn't deflect. It tries to actually answer the question. If it can't, it routes to a human with a summary of what the customer already tried."
+        },
+        {
+          "name": "who_its_for",
+          "heading": "Who it's for",
+          "prose": "SaaS and DTC companies already on Intercom doing 500+ tickets/month where most questions are 'how do I reset my password', 'where's my order', 'does X work with Y'. These are the questions Fin handles well.\n\nLess good for: complex troubleshooting, account-specific edge cases, anything requiring back-and-forth judgment. Honestly, anything where a human's been the deciding factor for years."
+        },
+        {
+          "name": "pricing_reality",
+          "heading": "The actual price",
+          "prose": "Per-resolution: $0.99 per ticket Fin fully resolves. So if it answers 100 tickets without human help, you pay $99. If it can't answer and routes to a human, you pay nothing.\n\nThat's clever pricing. You only pay for outcomes. But it makes ROI math hard until you run it. You need to know: how many tickets do you get, what fraction can Fin handle, and what's your current cost-per-ticket. Without those numbers, $0.99 is just a number."
+        },
+        {
+          "name": "what_actually_works",
+          "heading": "What actually works",
+          "prose": "Setup is fast. If your help center articles are decent, Fin can be live in a few days. The handoff to a human is genuinely good Fin summarizes what it already tried, which cuts the customer's repetition by half.\n\nMultilingual works out of the box without per-language training. Decent for English, Spanish, French, German. Less reliable beyond that."
+        },
+        {
+          "name": "what_doesnt",
+          "heading": "What doesn't",
+          "prose": "Anything requiring the AI to actually look at the customer's account state. Fin doesn't have native integrations with your database it works off the help center and what the customer types. So 'reset my subscription' works only if your help center article walks through it step-by-step.\n\nTone settings: Fin's default voice is aggressive-helpful. If your brand is more casual, you'll spend time tuning the system prompt. Worth doing but not instant."
+        },
+        {
+          "name": "verdict",
+          "heading": "Verdict",
+          "prose": "Try it. The per-resolution pricing means the worst case is 'we spent $X and Fin handled Y tickets that would've cost $Z with humans'. If Y*0.99 < Z, you keep it. If not, you stop paying.\n\nSkip if your ticket volume is under 200/month. The savings don't justify the setup time at that scale."
+        }
+      ],
+      "report_generated_at": "2026-09-25T16:25:03.519813+00:00",
+      "report_voice_score": 100
     },
     {
       "tool_id": "jasper",
@@ -1498,7 +1566,41 @@
       "last_checked": "2026-09-25",
       "first_added": "2026-09-25",
       "image_url": "assets/favicons/synthesia.png",
-      "image_source": "vendor favicon via Google S2 (805 bytes)"
+      "image_source": "vendor favicon via Google S2 (805 bytes)",
+      "report": [
+        {
+          "name": "what_it_is",
+          "heading": "What it is",
+          "prose": "Synthesia turns text scripts into videos with synthetic human presenters. You pick an avatar from a library, type what you want them to say, and the platform generates a 1080p MP4 in a few minutes. The library has 230+ stock avatars and you can order a custom one for around $1,000/year.\n\nThe product has been around since 2018, predates most of the current wave. Real customers include Unilever, Google, Nike, and a lot of internal corporate training teams."
+        },
+        {
+          "name": "who_its_for",
+          "heading": "Who it's for",
+          "prose": "Honestly, mostly internal training. Compliance videos, onboarding, software walk-throughs. The kind of content where the presenter being a real human doesn't matter much, and the cost of hiring a real actor + crew + studio would be silly.\n\nIf you're trying to make customer-facing marketing, skip this. The uncanny-valley effect is real. We've all seen enough of these videos to know they feel off."
+        },
+        {
+          "name": "pricing_reality",
+          "heading": "The actual price",
+          "prose": "Cheapest paid plan is $22/seat/month billed annually, which works out to $264/year per seat. That's cheap for what it does. The Creator tier at $67/mo unlocks longer videos and more avatars. Enterprise pricing is quote-only and gets weird fast.\n\nHidden cost: avatars you create belong to your account, but if you cancel, you lose them. So don't burn a $1,000 custom avatar on a 6-month pilot."
+        },
+        {
+          "name": "what_actually_works",
+          "heading": "What actually works",
+          "prose": "Lip-sync accuracy is solid. Background templates look corporate-clean. The script-to-video workflow is genuinely faster than hiring a freelancer.\n\nMulti-language is the real win. One script, 50 languages. If your training team operates across borders, this alone justifies the cost. The voice quality is hit-and-miss by language, but English, Spanish, French, and German are usable."
+        },
+        {
+          "name": "what_doesnt",
+          "heading": "What doesn't",
+          "prose": "Avatar expressiveness. You get smiling, neutral, and serious. That's it. If your script calls for confusion, sarcasm, or enthusiasm, the avatar delivers it like a hostage reading a statement.\n\nCustom gestures are limited. The presenters can move their hands a little. That's it. No pacing across a stage, no pointing at things offscreen, no looking surprised."
+        },
+        {
+          "name": "verdict",
+          "heading": "Verdict",
+          "prose": "Buy if you make internal training videos at scale. The cost-per-video math beats freelancers by a mile. Skip if anyone outside your company will see it, or if your content needs a real human delivering it."
+        }
+      ],
+      "report_generated_at": "2026-09-25T16:25:03.519813+00:00",
+      "report_voice_score": 100
     },
     {
       "tool_id": "tidio",
