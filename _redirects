@@ -1,0 +1,14 @@
+# Cloudflare Pages redirects
+# Format: <from> <to> [<status>]
+
+# Old /tracker/* URLs → /brief/*
+/tracker          /brief          301
+/tracker/         /brief/         301
+/tracker/index.html /brief/       301
+
+# Old /assets/favicons/* URLs (relative to old /tracker/index.html) → /brief/assets/favicons/*
+# Note: /tracker/index.html referenced favicons as "assets/favicons/X.png" which resolved
+# to /assets/favicons/X.png at the site root, not /tracker/assets/favicons/. So the
+# correct source paths were /assets/favicons/. Since we never had a root /assets/favicons
+# directory (they were under /tracker/), no public-facing links should exist to those.
+# Leaving this commented for reference.
