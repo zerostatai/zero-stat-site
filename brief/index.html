@@ -18,11 +18,11 @@
   }
 
   :root {
-    --ink: #11141A;          /* warmer than #0A0E18, less stark */
+    --ink: #14181F;          /* warmer dark, less stark */
     --paper: #FFFFFF;
-    --cobalt: #4A6CF7;       /* warmer cobalt, less neon */
-    --amber: #D9A55B;        /* home-ai accent */
-    --muted: #7A8090;
+    --cobalt: #5B7CFF;       /* brighter, warmer cobalt - clearly different from old */
+    --amber: #E8B96D;        /* brighter amber for home-ai accent */
+    --muted: #8A91A0;
     --rule: rgba(255, 255, 255, 0.08);
     --rule-strong: rgba(255, 255, 255, 0.16);
   }
@@ -413,9 +413,19 @@
 
   function escapeHtml(s) {
     if (!s) return '';
-    return String(s).replace(/[&<>"']/g, c => ({
-      '&': '&', '<': '<', '>': '>', '"': '"', "'": '''
-    }[c]));
+    const AMP = '\u0026' + 'amp;';
+    const LT = '\u0026' + '#60;';
+    const GT = '\u0026' + '#62;';
+    const QUOT = '\u0026' + '#34;';
+    const APOS = '\u0026' + '#39;';
+    const map = {
+      '\u0026': AMP,
+      '\u003C': LT,
+      '\u003E': GT,
+      '\u0022': QUOT,
+      '\u0027': APOS
+    };
+    return String(s).replace(/[&<>"']/g, c => map[c]);
   }
   function escapeAttr(s) { return escapeHtml(s); }
 
