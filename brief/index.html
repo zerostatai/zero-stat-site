@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Brief — zerostat.ai</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AI tools a non-developer might actually use, kept current. Curation over completeness. Every claim sourced. Every entry has a 'last checked' date you can verify.">
+
+<style>
+  /* Inter via local font, same as index.html */
+  @font-face {
+    font-family: 'Inter'; font-style: normal; font-weight: 600;
+    src: url('../assets/brand/fonts/Inter-SemiBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Inter'; font-style: normal; font-weight: 400;
+    src: url('../assets/brand/fonts/Inter-Regular.ttf') format('truetype');
+  }
+
+  :root {
+    --ink: #11141A;          /* warmer than #0A0E18, less stark */
+    --paper: #FFFFFF;
+    --cobalt: #4A6CF7;       /* warmer cobalt, less neon */
+    --amber: #D9A55B;        /* home-ai accent */
+    --muted: #7A8090;
+    --rule: rgba(255, 255, 255, 0.08);
+    --rule-strong: rgba(255, 255, 255, 0.16);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--ink); color: var(--paper);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 400; line-height: 1.65; font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 880px; margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  .wordmark {
+    display: inline-block;
+    font-family: 'Inter', sans-serif; font-weight: 600;
+    font-size: 24px; letter-spacing: -0.04em;
+    color: var(--paper); text-decoration: none;
+    margin-bottom: 64px;
+  }
+  .wordmark:hover { color: var(--cobalt); }
+
+  h1 { font-size: 48px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.05; margin: 0 0 16px; }
+  .lede { font-size: 20px; line-height: 1.4; color: rgba(255, 255, 255, 0.7); margin-bottom: 32px; max-width: 680px; }
+
+  h2 {
+    font-size: 20px; font-weight: 600;
+    margin: 56px 0 16px; padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    letter-spacing: -0.02em;
+  }
+
+  /* Top bar: search + sort */
+  .topbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .search {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: var(--paper);
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+  }
+  .search:focus { outline: none; border-color: var(--cobalt); }
+  .search::placeholder { color: var(--muted); }
+
+  .sort {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: var(--paper);
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  /* Filter pills */
+  .filters {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .filter-btn {
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px; font-family: inherit;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { color: var(--paper); border-color: var(--cobalt); }
+  .filter-btn.active {
+    background: var(--cobalt); color: var(--paper); border-color: var(--cobalt);
+  }
+
+  /* Tool cards */
+  .tool {
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--cobalt);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 16px;
+    background: rgba(255, 255, 255, 0.02);
+    transition: border-color 0.15s;
+  }
+  .tool:hover { border-color: var(--cobalt); border-left-color: var(--cobalt); }
+  .tool.cat-home-ai { border-left-color: var(--amber); }
+  .tool.cat-home-ai:hover { border-left-color: var(--amber); }
+
+  .tool-head {
+    display: flex; align-items: center; gap: 16px;
+    margin-bottom: 12px;
+  }
+  .tool-logo {
+    width: 48px; height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+  }
+  .tool-logo img {
+    width: 32px; height: 32px;
+    object-fit: contain;
+  }
+  .tool-logo-fallback {
+    width: 32px; height: 32px;
+    background: var(--cobalt);
+    color: var(--paper);
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 600;
+  }
+  .tool-head-text {
+    flex: 1; min-width: 0;
+  }
+  .tool-name {
+    font-size: 22px; font-weight: 600; letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  .tool-name a { color: var(--paper); text-decoration: none; }
+  .tool-name a:hover { color: var(--cobalt); }
+  .tool-vendor { color: var(--muted); font-size: 14px; margin-left: 8px; font-weight: 400; }
+  .tool-cat {
+    font-size: 12px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 2px 8px; border: 1px solid var(--rule); border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  /* Verdict callout */
+  .verdict {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 13px; font-weight: 600;
+    margin: 12px 0;
+    text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .verdict.skip { background: rgba(217, 70, 70, 0.15); color: #E89A9A; }
+  .verdict.try  { background: rgba(217, 165, 91, 0.15); color: var(--amber); }
+  .verdict.buy  { background: rgba(74, 108, 247, 0.15); color: var(--cobalt); }
+
+  .tool-pitch { color: rgba(255, 255, 255, 0.85); margin: 8px 0 12px; }
+
+  /* Tabs within each tool card */
+  .tabs {
+    display: flex; gap: 2px;
+    margin: 16px 0 12px;
+    border-bottom: 1px solid var(--rule);
+    flex-wrap: wrap;
+  }
+  .tab {
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    padding: 8px 14px;
+    font-size: 12px;
+    font-family: inherit;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.15s;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+  }
+  .tab:hover { color: var(--paper); }
+  .tab.active { color: var(--paper); border-bottom-color: var(--cobalt); }
+
+  .tab-content {
+    padding: 12px 0 8px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.78);
+    min-height: 60px;
+  }
+  .tab-content p { margin: 0 0 8px; }
+  .tab-content p:last-child { margin-bottom: 0; }
+
+  /* Reasons as hover tooltips + click-to-expand block */
+  .rubric {
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    gap: 4px; margin-top: 16px;
+    font-size: 11px;
+  }
+  .rubric-cell {
+    text-align: center;
+    padding: 6px 4px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 4px;
+    color: var(--muted);
+    cursor: help;
+    position: relative;
+  }
+  .rubric-cell .score {
+    display: block;
+    color: var(--cobalt);
+    font-size: 18px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+  .rubric-cell .axis {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+  }
+  .rubric-cell:hover .rubric-tooltip { display: block; }
+  .rubric-tooltip {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%; transform: translateX(-50%);
+    background: #1A1E26;
+    border: 1px solid var(--rule-strong);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--paper);
+    width: 200px;
+    text-align: left;
+    z-index: 10;
+    text-transform: none;
+    letter-spacing: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+  }
+
+  /* Click-to-expand full reasons block */
+  .reasons-toggle {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    user-select: none;
+  }
+  .reasons-toggle:hover { color: var(--cobalt); }
+  .reasons-toggle::before { content: '▸ '; margin-right: 4px; }
+  .reasons-toggle.open::before { content: '▾ '; }
+
+  .reasons-block {
+    display: none;
+    margin-top: 8px;
+    padding: 12px 14px;
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 2px solid var(--cobalt);
+    border-radius: 4px;
+  }
+  .reasons-block.open { display: block; }
+  .reasons-block .reason-row {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 10px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .reasons-block .reason-score {
+    color: var(--cobalt);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tool-meta {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    font-size: 13px; color: var(--muted);
+    margin-top: 16px;
+  }
+  .tool-meta span { display: inline-flex; align-items: center; gap: 4px; }
+
+  /* Footer */
+  .meta-footer {
+    margin-top: 96px; padding-top: 32px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: 14px;
+  }
+  .meta-footer a { color: var(--cobalt); text-decoration: none; }
+  .meta-footer a:hover { text-decoration: underline; }
+
+  .empty {
+    color: var(--muted);
+    font-style: italic;
+    text-align: center;
+    padding: 48px 0;
+  }
+
+  @media (max-width: 600px) {
+    .page { padding: 48px 16px 64px; }
+    h1 { font-size: 36px; }
+    .lede { font-size: 17px; }
+    .topbar { grid-template-columns: 1fr; }
+    .rubric { grid-template-columns: repeat(5, 1fr); }
+    .rubric-cell { font-size: 10px; padding: 4px 2px; }
+    .rubric-cell .score { font-size: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <a href="../" class="wordmark">Zero Stat</a>
+  <h1>AI tools a non-developer might actually use.</h1>
+  <p class="lede">Curation over completeness. Every entry has a take, scores that explain themselves, and a last-checked date you can verify.</p>
+
+  <div class="topbar">
+    <input id="search" class="search" type="text" placeholder="Search by name, vendor, or what it does…">
+    <select id="sort" class="sort">
+      <option value="recent">Sort: recently added</option>
+      <option value="name">Sort: name A→Z</option>
+      <option value="capability">Sort: capability</option>
+      <option value="cost">Sort: cost (best value first)</option>
+      <option value="reliability">Sort: reliability</option>
+      <option value="ecosystem">Sort: ecosystem</option>
+      <option value="momentum">Sort: momentum</option>
+    </select>
+  </div>
+
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-cat="all">All (30)</button>
+    <button class="filter-btn" data-cat="smb-general">Small business (20)</button>
+    <button class="filter-btn" data-cat="home-ai">At home (10)</button>
+  </div>
+
+  <div id="tool-list"></div>
+
+  <div class="meta-footer">
+    <p>
+      <strong>Why this exists.</strong> Most AI tool directories are SEO farms or vendor placement. This one is curated and updated by an automated system with a human in the loop. Sources are linked in the underlying data.{' '}
+      <a href="../methodology.html">Read the methodology</a>.
+    </p>
+    <p style="margin-top: 16px;">
+      Got a tool we should add, or spotted something wrong?{' '}
+      <a href="https://github.com/zerostatai/zero-stat-site/issues">File an issue</a>.
+    </p>
+  </div>
+</div>
+
+<script>
+  // Schema: { tools: [{tool_id, name, vendor, category, url, one_line_pitch, your_take, rubric_scores, rubric_reasons, report, ...}] }
+  let ALL_TOOLS = [];
+  let ACTIVE_CAT = 'all';
+  let SEARCH_TERM = '';
+  let SORT_KEY = 'recent';
+
+  // Per-entry active tab index (which section is shown)
+  const ACTIVE_TAB = new Map();
+
+  const TAB_LABELS = {
+    what_it_is: 'Overview',
+    who_its_for: 'Who it\'s for',
+    what_problem_it_solves: 'What it solves',
+    install_and_setup: 'Setup',
+    pricing_reality: 'Pricing',
+    what_actually_works: 'What works',
+    what_doesnt: 'What doesn\'t',
+    verdict: 'Verdict',
+  };
+
+  function extractVerdict(report) {
+    if (!Array.isArray(report)) return null;
+    const v = report.find(s => s.name === 'verdict');
+    if (!v) return null;
+    const text = (v.prose || '').toLowerCase();
+    if (text.startsWith('skip') || text.includes('don\'t bother') || text.includes("don't buy")) return { label: 'Skip', cls: 'skip' };
+    if (text.includes('buy') || text.includes('worth the money') || text.startsWith('worth it if')) return { label: 'Buy', cls: 'buy' };
+    return { label: 'Try', cls: 'try' };
+  }
+
+  function escapeHtml(s) {
+    if (!s) return '';
+    return String(s).replace(/[&<>"']/g, c => ({
+      '&': '&', '<': '<', '>': '>', '"': '"', "'": '''
+    }[c]));
+  }
+  function escapeAttr(s) { return escapeHtml(s); }
+
+  function renderTabsBlock(t) {
+    if (!Array.isArray(t.report) || t.report.length === 0) return '';
+    const sections = t.report;
+    const activeIdx = ACTIVE_TAB.get(t.tool_id) || 0;
+    const tabs = sections.map((sec, i) => {
+      const label = TAB_LABELS[sec.name] || sec.name.replace(/_/g, ' ');
+      const cls = (i === activeIdx) ? 'tab active' : 'tab';
+      return `<button class="${cls}" data-tid="${escapeAttr(t.tool_id)}" data-idx="${i}">${escapeHtml(label)}</button>`;
+    }).join('');
+    const activeSec = sections[activeIdx];
+    const paras = (activeSec.prose || '').split(/\n+/).filter(p => p.trim()).map(p => `<p>${escapeHtml(p.trim())}</p>`).join('');
+    return `<div class="tabs">${tabs}</div><div class="tab-content">${paras}</div>`;
+  }
+
+  function renderReasonsBlock(t) {
+    if (!t.rubric_reasons || Object.keys(t.rubric_reasons).length === 0) return '';
+    const rows = ['capability', 'cost', 'reliability', 'ecosystem', 'momentum'].map(k => {
+      const reason = t.rubric_reasons[k];
+      if (!reason) return '';
+      return `<div class="reason-row"><span class="reason-score">${t.rubric_scores[k]}/10</span><span>${escapeHtml(reason)}</span></div>`;
+    }).join('');
+    return `<span class="reasons-toggle" data-tid="${escapeAttr(t.tool_id)}">Why these scores</span><div class="reasons-block" data-tid="${escapeAttr(t.tool_id)}">${rows}</div>`;
+  }
+
+  function renderCard(t) {
+    const rubric = ['capability', 'cost', 'reliability', 'ecosystem', 'momentum']
+      .map(k => {
+        const reason = (t.rubric_reasons || {})[k] || 'No reason given.';
+        return `<div class="rubric-cell"><span class="score">${t.rubric_scores[k]}</span><span class="axis">${k[0].toUpperCase()}</span><div class="rubric-tooltip">${escapeHtml(reason)}</div></div>`;
+      }).join('');
+
+    const verdict = extractVerdict(t.report);
+    const verdictHtml = verdict ? `<span class="verdict ${verdict.cls}">${verdict.label}</span>` : '';
+
+    const logoHtml = t.image_url
+      ? `<div class="tool-logo"><img src="${escapeAttr(t.image_url)}" alt="${escapeAttr(t.name)} logo" loading="lazy"></div>`
+      : `<div class="tool-logo"><div class="tool-logo-fallback">${escapeHtml((t.name || '?')[0].toUpperCase())}</div></div>`;
+
+    const catClass = t.category === 'home-ai' ? 'cat-home-ai' : 'cat-smb';
+
+    return `
+      <div class="tool ${catClass}">
+        <div class="tool-head">
+          ${logoHtml}
+          <div class="tool-head-text">
+            <div class="tool-name"><a href="${escapeAttr(t.url)}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></div>
+            <div class="tool-vendor">${escapeHtml(t.vendor)}</div>
+          </div>
+          <span class="tool-cat">${escapeHtml(t.category)}</span>
+        </div>
+        <p class="tool-pitch">${escapeHtml(t.one_line_pitch)}</p>
+        ${verdictHtml}
+        ${renderTabsBlock(t)}
+        <div class="rubric">${rubric}</div>
+        ${renderReasonsBlock(t)}
+        <div class="tool-meta">
+          <span>Pricing: ${escapeHtml(t.pricing_model)}</span>
+          <span>Last checked: ${escapeHtml(t.last_checked)}</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderTools() {
+    const list = document.getElementById('tool-list');
+
+    let visible = ALL_TOOLS.filter(t => {
+      if (ACTIVE_CAT !== 'all' && t.category !== ACTIVE_CAT) return false;
+      if (SEARCH_TERM) {
+        const hay = `${t.name} ${t.vendor} ${t.one_line_pitch} ${t.your_take} ${JSON.stringify(t.report || [])}`.toLowerCase();
+        if (!hay.includes(SEARCH_TERM)) return false;
+      }
+      return true;
+    });
+
+    visible.sort((a, b) => {
+      if (SORT_KEY === 'name') return a.name.localeCompare(b.name);
+      if (SORT_KEY === 'recent') return (b.first_added || '').localeCompare(a.first_added || '');
+      if (['capability', 'cost', 'reliability', 'ecosystem', 'momentum'].includes(SORT_KEY)) {
+        return (b.rubric_scores[SORT_KEY] || 0) - (a.rubric_scores[SORT_KEY] || 0);
+      }
+      return 0;
+    });
+
+    if (visible.length === 0) {
+      list.innerHTML = '<div class="empty">No tools match. Try a different search or category.</div>';
+      return;
+    }
+
+    list.innerHTML = visible.map(renderCard).join('');
+  }
+
+  // Event delegation for tabs + reasons toggles
+  document.addEventListener('click', e => {
+    const tab = e.target.closest('.tab');
+    if (tab) {
+      const tid = tab.dataset.tid;
+      const idx = parseInt(tab.dataset.idx, 10);
+      ACTIVE_TAB.set(tid, idx);
+      const card = tab.closest('.tool');
+      const tool = ALL_TOOLS.find(t => t.tool_id === tid);
+      if (card && tool) {
+        const oldTabs = card.querySelector(':scope > .tabs');
+        const oldContent = card.querySelector(':scope > .tab-content');
+        if (oldTabs && oldContent) {
+          const tmp = document.createElement('div');
+          tmp.innerHTML = renderTabsBlock(tool);
+          // tmp contains .tabs then .tab-content
+          oldTabs.replaceWith(tmp.firstElementChild);
+          oldContent.replaceWith(tmp.lastElementChild);
+        }
+      }
+      return;
+    }
+    const toggle = e.target.closest('.reasons-toggle');
+    if (toggle) {
+      const tid = toggle.dataset.tid;
+      const block = document.querySelector(`.reasons-block[data-tid="${tid}"]`);
+      if (block) {
+        block.classList.toggle('open');
+        toggle.classList.toggle('open');
+      }
+    }
+  });
+
+  // Filter buttons
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      ACTIVE_CAT = btn.dataset.cat;
+      renderTools();
+    });
+  });
+
+  // Search input
+  document.getElementById('search').addEventListener('input', e => {
+    SEARCH_TERM = e.target.value.toLowerCase().trim();
+    renderTools();
+  });
+
+  // Sort select
+  document.getElementById('sort').addEventListener('change', e => {
+    SORT_KEY = e.target.value;
+    renderTools();
+  });
+
+  // Load data
+  fetch('./tools.json')
+    .then(r => r.ok ? r.json() : Promise.reject(r.statusText))
+    .then(data => {
+      ALL_TOOLS = data.tools || [];
+      renderTools();
+    })
+    .catch(err => {
+      document.getElementById('tool-list').innerHTML =
+        `<div class="empty">Could not load tools: ${escapeHtml(err)}. The dataset may not be deployed yet.</div>`;
+    });
+</script>
+</body>
+</html>
