@@ -60,7 +60,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Arlo Cameras from Arlo Technologies. Wire-free security cameras with AI detection of people, packages, vehicles, animals. On the rubric: capability 4/5, cost 3/5, reliability 4/5."
+          "prose": "Arlo Cameras from Arlo Technologies. Wire-free security cameras with AI detection of people, packages, vehicles, animals. On the rubric: capability 7/10, cost 4/10, reliability 6/10, ecosystem 6/10, momentum 5/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -75,7 +75,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 4/5 says it doesn't break often. AI detection across multiple object types is genuinely useful."
+          "prose": "Capability 7/10 means the underlying tech is solid. Reliability 6/10 says it doesn't break often. AI detection across multiple object types is genuinely useful."
         },
         {
           "name": "what_doesnt",
@@ -99,7 +99,8 @@
         "momentum": "Slowing growth. Competing against cheaper options."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.243552+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.243552+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.156088+00:00"
     },
     {
       "tool_id": "august-lock",
@@ -153,7 +154,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "August Smart Lock from August Home (ASSA ABLOY). Smart lock that retrofits onto your existing deadbolt. On the rubric: capability 4/5, cost 4/5, reliability 4/5."
+          "prose": "August Smart Lock from August Home (ASSA ABLOY). Smart lock that retrofits onto your existing deadbolt. On the rubric: capability 7/10, cost 6/10, reliability 7/10, ecosystem 8/10, momentum 5/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -168,7 +169,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 4/5 says it doesn't break often. Best smart lock for renters because it doesn't replace the lock, just adds smarts."
+          "prose": "Capability 7/10 means the underlying tech is solid. Reliability 7/10 says it doesn't break often. Best smart lock for renters because it doesn't replace the lock, just adds smarts."
         },
         {
           "name": "what_doesnt",
@@ -192,7 +193,8 @@
         "momentum": "Mature product. Yale acquisition hasn't changed much."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.244680+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.244680+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.157879+00:00"
     },
     {
       "tool_id": "ecobee",
@@ -246,7 +248,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "ecobee Smart Thermostat from ecobee Inc.. Smart thermostat with built-in Alexa and room sensors. On the rubric: capability 4/5, cost 4/5, reliability 5/5."
+          "prose": "ecobee Smart Thermostat from ecobee Inc.. Smart thermostat with built-in Alexa and room sensors. On the rubric: capability 8/10, cost 7/10, reliability 9/10, ecosystem 8/10, momentum 7/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -261,7 +263,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 5/5 says it doesn't break often. Better than Nest for homes with multiple rooms or uneven heating."
+          "prose": "Capability 8/10 means the underlying tech is solid. Reliability 9/10 says it doesn't break often. Better than Nest for homes with multiple rooms or uneven heating."
         },
         {
           "name": "what_doesnt",
@@ -285,7 +287,8 @@
         "momentum": "Gaining share against Nest in 2025-26."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.245246+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.245246+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.159089+00:00"
     },
     {
       "tool_id": "roomba",
@@ -342,7 +345,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "iRobot Roomba from iRobot Corporation. Robot vacuum with room mapping and learning routines. On the rubric: capability 4/5, cost 3/5, reliability 4/5."
+          "prose": "iRobot Roomba from iRobot Corporation. Robot vacuum with room mapping and learning routines. On the rubric: capability 7/10, cost 4/10, reliability 6/10, ecosystem 7/10, momentum 5/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -357,7 +360,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 4/5 says it doesn't break often. The category leader for years."
+          "prose": "Capability 7/10 means the underlying tech is solid. Reliability 6/10 says it doesn't break often. The category leader for years."
         },
         {
           "name": "what_doesnt",
@@ -381,7 +384,8 @@
         "momentum": "Amazon-acquired in 2022 but innovation has slowed."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.245828+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.245828+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.160235+00:00"
     },
     {
       "tool_id": "nest-doorbell",
@@ -438,7 +442,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Nest Doorbell from Google Nest. Google's video doorbell with package and familiar-face detection. On the rubric: capability 4/5, cost 3/5, reliability 4/5."
+          "prose": "Nest Doorbell from Google Nest. Google's video doorbell with package and familiar-face detection. On the rubric: capability 7/10, cost 5/10, reliability 8/10, ecosystem 9/10, momentum 7/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -453,7 +457,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 4/5 says it doesn't break often. Better familiar-face detection than Ring."
+          "prose": "Capability 7/10 means the underlying tech is solid. Reliability 8/10 says it doesn't break often. Better familiar-face detection than Ring."
         },
         {
           "name": "what_doesnt",
@@ -477,7 +481,8 @@
         "momentum": "Improving. Adding features faster than Ring."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.246498+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.246498+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.161387+00:00"
     },
     {
       "tool_id": "nest-thermostat",
@@ -525,7 +530,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "A learning thermostat that programs itself by watching when you adjust the temperature. Two models: the basic Nest Thermostat ($129.99) and the Learning Thermostat ($279.99). The cheaper one skips the rotating dial and a couple of sensors.\n\nMade by Google Nest, which bought the original Nest Labs in 2014. By 2026 it's the default smart thermostat if you're anywhere in the Google ecosystem."
+          "prose": "A learning thermostat that programs itself by watching when you adjust the temperature. Two models: the basic Nest Thermostat ($129.99) and the Learning Thermostat ($279.99). The cheaper one skips the rotating dial and a couple of sensors.\n\nMade by Google Nest, which bought the original Nest Labs in 2014. By 2026 it's the default smart thermostat if you're anywhere in the Google ecosystem. On the rubric: capability 8/10, cost 6/10, reliability 9/10, ecosystem 9/10, momentum 6/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -563,7 +568,8 @@
         "momentum": "Mature product. New features are incremental."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.247023+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.247023+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.164014+00:00"
     },
     {
       "tool_id": "philips-hue",
@@ -622,7 +628,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Philips Hue from Signify. Smart lighting with routines, motion sensors, and color scenes. On the rubric: capability 4/5, cost 3/5, reliability 5/5."
+          "prose": "Philips Hue from Signify. Smart lighting with routines, motion sensors, and color scenes. On the rubric: capability 7/10, cost 3/10, reliability 9/10, ecosystem 9/10, momentum 5/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -637,7 +643,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 5/5 says it doesn't break often. The premium choice in smart lighting."
+          "prose": "Capability 7/10 means the underlying tech is solid. Reliability 9/10 says it doesn't break often. The premium choice in smart lighting."
         },
         {
           "name": "what_doesnt",
@@ -661,7 +667,8 @@
         "momentum": "Mature. New products are incremental."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.247602+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.247602+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.165189+00:00"
     },
     {
       "tool_id": "reolink",
@@ -719,7 +726,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Reolink from Reolink Digital Technology. Security cameras with local storage option and no mandatory subscription. On the rubric: capability 4/5, cost 5/5, reliability 4/5."
+          "prose": "Reolink from Reolink Digital Technology. Security cameras with local storage option and no mandatory subscription. On the rubric: capability 7/10, cost 8/10, reliability 7/10, ecosystem 5/10, momentum 6/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -734,7 +741,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 4/5 says it doesn't break often. Best value in home security cameras."
+          "prose": "Capability 7/10 means the underlying tech is solid. Reliability 7/10 says it doesn't break often. Best value in home security cameras."
         },
         {
           "name": "what_doesnt",
@@ -758,7 +765,8 @@
         "momentum": "Growing among users who want to avoid subscriptions."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.248112+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.248112+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.166360+00:00"
     },
     {
       "tool_id": "ring-doorbell",
@@ -816,7 +824,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Ring Video Doorbell from Amazon (Ring). Video doorbell with motion alerts and package detection. On the rubric: capability 4/5, cost 3/5, reliability 4/5."
+          "prose": "Ring Video Doorbell from Amazon (Ring). Video doorbell with motion alerts and package detection. On the rubric: capability 7/10, cost 6/10, reliability 7/10, ecosystem 9/10, momentum 6/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -831,7 +839,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 4/5 means the underlying tech is solid. Reliability 4/5 says it doesn't break often. The default video doorbell in 2026."
+          "prose": "Capability 7/10 means the underlying tech is solid. Reliability 7/10 says it doesn't break often. The default video doorbell in 2026."
         },
         {
           "name": "what_doesnt",
@@ -855,7 +863,8 @@
         "momentum": "Mature product. Not changing fast."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.248658+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.248658+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.167472+00:00"
     },
     {
       "tool_id": "roborock",
@@ -908,7 +917,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Roborock from Roborock (Xiaomi). Robot vacuum and mop with advanced mapping. Best-in-class obstacle avoidance. On the rubric: capability 5/5, cost 4/5, reliability 4/5."
+          "prose": "Roborock from Roborock (Xiaomi). Robot vacuum and mop with advanced mapping. Best-in-class obstacle avoidance. On the rubric: capability 9/10, cost 7/10, reliability 8/10, ecosystem 6/10, momentum 8/10."
         },
         {
           "name": "what_problem_it_solves",
@@ -923,7 +932,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "Capability 5/5 means the underlying tech is solid. Reliability 4/5 says it doesn't break often. Often outperforms Roomba at lower prices."
+          "prose": "Capability 9/10 means the underlying tech is solid. Reliability 8/10 says it doesn't break often. Often outperforms Roomba at lower prices."
         },
         {
           "name": "what_doesnt",
@@ -947,7 +956,8 @@
         "momentum": "Steady growth. Picking up market share from iRobot."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.249196+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.249196+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.168640+00:00"
     },
     {
       "tool_id": "canva",
@@ -1005,7 +1015,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Canva from Canva Pty Ltd. Visual design tool with AI features for social posts, presentations, and basic video. On the rubric: capability 4/5, cost 5/5, reliability 5/5."
+          "prose": "Canva from Canva Pty Ltd. Visual design tool with AI features for social posts, presentations, and basic video. On the rubric: capability 7/10, cost 7/10, reliability 9/10, ecosystem 8/10, momentum 8/10."
         },
         {
           "name": "who_its_for",
@@ -1020,7 +1030,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. Genuinely useful for non-designers."
+          "prose": "What the rubric scores reflect: capability 7/10 says the underlying tech holds up. Reliability 9/10 means the team behind it isn't going anywhere. Genuinely useful for non-designers."
         },
         {
           "name": "what_doesnt",
@@ -1044,7 +1054,8 @@
         "momentum": "Adding AI features fast. The user base keeps growing."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.249691+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.249691+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.520163+00:00"
     },
     {
       "tool_id": "chatgpt",
@@ -1112,7 +1123,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "ChatGPT from OpenAI. The most widely-used general AI assistant, with a broad ecosystem of integrations and plugins. On the rubric: capability 5/5, cost 4/5, reliability 5/5."
+          "prose": "ChatGPT from OpenAI. The most widely-used general AI assistant, with a broad ecosystem of integrations and plugins. On the rubric: capability 9/10, cost 6/10, reliability 9/10, ecosystem 10/10, momentum 9/10."
         },
         {
           "name": "who_its_for",
@@ -1127,7 +1138,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 5/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. Default choice for most non-technical users."
+          "prose": "What the rubric scores reflect: capability 9/10 says the underlying tech holds up. Reliability 9/10 means the team behind it isn't going anywhere. Default choice for most non-technical users."
         },
         {
           "name": "what_doesnt",
@@ -1151,7 +1162,8 @@
         "momentum": "Still the brand. Still getting the new models first. No signs of slowing down."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.250344+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.250344+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.521714+00:00"
     },
     {
       "tool_id": "claude",
@@ -1219,7 +1231,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Claude from Anthropic. Anthropic's assistant. Strong at long-form writing and analysis, weaker at image generation. On the rubric: capability 5/5, cost 4/5, reliability 5/5."
+          "prose": "Claude from Anthropic. Anthropic's assistant. Strong at long-form writing and analysis, weaker at image generation. On the rubric: capability 9/10, cost 7/10, reliability 9/10, ecosystem 8/10, momentum 9/10."
         },
         {
           "name": "who_its_for",
@@ -1234,7 +1246,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 5/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. Best in class for writing-heavy work and document analysis."
+          "prose": "What the rubric scores reflect: capability 9/10 says the underlying tech holds up. Reliability 9/10 means the team behind it isn't going anywhere. Best in class for writing-heavy work and document analysis."
         },
         {
           "name": "what_doesnt",
@@ -1258,7 +1270,8 @@
         "momentum": "Strong upward trajectory. Enterprise adoption is real, not just hype."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.251314+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.251314+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.522954+00:00"
     },
     {
       "tool_id": "copy-ai",
@@ -1316,7 +1329,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Copy.ai from Copy.ai Inc.. AI copywriting workflows for marketing and sales teams. On the rubric: capability 3/5, cost 3/5, reliability 4/5."
+          "prose": "Copy.ai from Copy.ai Inc.. AI copywriting workflows for marketing and sales teams. On the rubric: capability 5/10, cost 6/10, reliability 6/10, ecosystem 5/10, momentum 4/10."
         },
         {
           "name": "who_its_for",
@@ -1331,7 +1344,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 3/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Workflow-first approach."
+          "prose": "What the rubric scores reflect: capability 5/10 says the underlying tech holds up. Reliability 6/10 means the team behind it isn't going anywhere. Workflow-first approach."
         },
         {
           "name": "what_doesnt",
@@ -1355,7 +1368,8 @@
         "momentum": "Hasn't grown as fast as the market. Competing against ChatGPT at ChatGPT prices."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.252149+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.252149+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.524124+00:00"
     },
     {
       "tool_id": "descript",
@@ -1417,7 +1431,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Descript from Descript Inc.. Audio/video editor that edits by editing text. AI transcription + filler-word removal. On the rubric: capability 4/5, cost 3/5, reliability 4/5."
+          "prose": "Descript from Descript Inc.. Audio/video editor that edits by editing text. AI transcription + filler-word removal. On the rubric: capability 8/10, cost 6/10, reliability 7/10, ecosystem 6/10, momentum 7/10."
         },
         {
           "name": "who_its_for",
@@ -1432,7 +1446,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Genuinely different from other editors."
+          "prose": "What the rubric scores reflect: capability 8/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. Genuinely different from other editors."
         },
         {
           "name": "what_doesnt",
@@ -1456,7 +1470,8 @@
         "momentum": "Growing steadily. Mostly in podcast/video creator circles."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.252800+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.252800+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.525335+00:00"
     },
     {
       "tool_id": "elevenlabs",
@@ -1524,7 +1539,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "ElevenLabs from ElevenLabs Inc.. Voice synthesis and voice cloning. Best quality available for English. On the rubric: capability 5/5, cost 3/5, reliability 4/5."
+          "prose": "ElevenLabs from ElevenLabs Inc.. Voice synthesis and voice cloning. Best quality available for English. On the rubric: capability 9/10, cost 6/10, reliability 8/10, ecosystem 7/10, momentum 9/10."
         },
         {
           "name": "who_its_for",
@@ -1539,7 +1554,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 5/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. If voice is your product (podcast, video narration, audiobooks), this is the default."
+          "prose": "What the rubric scores reflect: capability 9/10 says the underlying tech holds up. Reliability 8/10 means the team behind it isn't going anywhere. If voice is your product (podcast, video narration, audiobooks), this is the default."
         },
         {
           "name": "what_doesnt",
@@ -1563,7 +1578,8 @@
         "momentum": "Fastest-growing in the audio AI space. Real competition to legacy TTS vendors."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.253401+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.253401+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.526605+00:00"
     },
     {
       "tool_id": "fireflies",
@@ -1629,7 +1645,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Fireflies.ai from Fireflies.ai Inc.. Meeting transcription and analysis. Direct competitor to Otter with deeper CRM integrations. On the rubric: capability 4/5, cost 3/5, reliability 4/5."
+          "prose": "Fireflies.ai from Fireflies.ai Inc.. Meeting transcription and analysis. Direct competitor to Otter with deeper CRM integrations. On the rubric: capability 7/10, cost 6/10, reliability 7/10, ecosystem 8/10, momentum 6/10."
         },
         {
           "name": "who_its_for",
@@ -1644,7 +1660,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Better than Otter if you live in Salesforce or HubSpot."
+          "prose": "What the rubric scores reflect: capability 7/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. Better than Otter if you live in Salesforce or HubSpot."
         },
         {
           "name": "what_doesnt",
@@ -1668,7 +1684,8 @@
         "momentum": "Steady. Competing against Otter and Read.ai for the same market."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.253965+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.253965+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.527797+00:00"
     },
     {
       "tool_id": "gemini",
@@ -1727,7 +1744,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Gemini from Google. Google's assistant, deeply integrated into Workspace and the Android ecosystem. On the rubric: capability 4/5, cost 3/5, reliability 5/5."
+          "prose": "Gemini from Google. Google's assistant, deeply integrated into Workspace and the Android ecosystem. On the rubric: capability 7/10, cost 7/10, reliability 8/10, ecosystem 9/10, momentum 8/10."
         },
         {
           "name": "who_its_for",
@@ -1742,7 +1759,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. If you live in Google Workspace, this is the obvious default."
+          "prose": "What the rubric scores reflect: capability 7/10 says the underlying tech holds up. Reliability 8/10 means the team behind it isn't going anywhere. If you live in Google Workspace, this is the obvious default."
         },
         {
           "name": "what_doesnt",
@@ -1766,7 +1783,8 @@
         "momentum": "Steady improvement each model version. Not flashy but real progress."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.254600+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.254600+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.528981+00:00"
     },
     {
       "tool_id": "grammarly",
@@ -1824,7 +1842,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Grammarly from Grammarly Inc.. Writing assistant focused on grammar, clarity, and tone. Works where you already write. On the rubric: capability 3/5, cost 4/5, reliability 5/5."
+          "prose": "Grammarly from Grammarly Inc.. Writing assistant focused on grammar, clarity, and tone. Works where you already write. On the rubric: capability 7/10, cost 5/10, reliability 9/10, ecosystem 9/10, momentum 6/10."
         },
         {
           "name": "who_its_for",
@@ -1839,7 +1857,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 3/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. Useful, not real."
+          "prose": "What the rubric scores reflect: capability 7/10 says the underlying tech holds up. Reliability 9/10 means the team behind it isn't going anywhere. Useful, not real."
         },
         {
           "name": "what_doesnt",
@@ -1863,7 +1881,8 @@
         "momentum": "Adding AI features but growth has plateaued. Mature product."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.255289+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.255289+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.530133+00:00"
     },
     {
       "tool_id": "heygen",
@@ -1925,7 +1944,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "HeyGen from HeyGen Inc.. AI video generation with avatars. Similar to Synthesia, more marketing-creator focused. On the rubric: capability 4/5, cost 3/5, reliability 4/5."
+          "prose": "HeyGen from HeyGen Inc.. AI video generation with avatars. Similar to Synthesia, more marketing-creator focused. On the rubric: capability 7/10, cost 6/10, reliability 7/10, ecosystem 6/10, momentum 7/10."
         },
         {
           "name": "who_its_for",
@@ -1940,7 +1959,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Better avatars and more natural-looking output than Synthesia at similar price points."
+          "prose": "What the rubric scores reflect: capability 7/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. Better avatars and more natural-looking output than Synthesia at similar price points."
         },
         {
           "name": "what_doesnt",
@@ -1964,7 +1983,8 @@
         "momentum": "Picking up users, especially in APAC."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.255900+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.255900+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.531341+00:00"
     },
     {
       "tool_id": "intercom-fin",
@@ -2012,7 +2032,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "An AI customer service agent that lives inside Intercom and resolves support tickets autonomously. Built on top of GPT-4 class models, fine-tuned on your help center, and trained on past conversations your team has handled.\n\nDifferent from a chatbot: Fin doesn't deflect. It tries to actually answer the question. If it can't, it routes to a human with a summary of what the customer already tried."
+          "prose": "An AI customer service agent that lives inside Intercom and resolves support tickets autonomously. Built on top of GPT-4 class models, fine-tuned on your help center, and trained on past conversations your team has handled.\n\nDifferent from a chatbot: Fin doesn't deflect. It tries to actually answer the question. If it can't, it routes to a human with a summary of what the customer already tried. On the rubric: capability 7/10, cost 6/10, reliability 7/10, ecosystem 8/10, momentum 8/10."
         },
         {
           "name": "who_its_for",
@@ -2050,7 +2070,8 @@
         "momentum": "Fast-growing segment. Competitors are emerging but Intercom has the head start."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.256329+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.256329+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.183037+00:00"
     },
     {
       "tool_id": "jasper",
@@ -2108,7 +2129,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Jasper from Jasper AI Inc.. Marketing-focused AI writing tool with brand voice and team workflows. On the rubric: capability 4/5, cost 2/5, reliability 4/5."
+          "prose": "Jasper from Jasper AI Inc.. Marketing-focused AI writing tool with brand voice and team workflows. On the rubric: capability 6/10, cost 4/10, reliability 7/10, ecosystem 7/10, momentum 5/10."
         },
         {
           "name": "who_its_for",
@@ -2123,7 +2144,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Built for marketing teams that need brand-consistency at scale."
+          "prose": "What the rubric scores reflect: capability 6/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. Built for marketing teams that need brand-consistency at scale."
         },
         {
           "name": "what_doesnt",
@@ -2147,7 +2168,8 @@
         "momentum": "Growth has slowed. The differentiation is harder to defend as base models catch up."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.257016+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.257016+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.532526+00:00"
     },
     {
       "tool_id": "make",
@@ -2209,7 +2231,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Make from Make (Celonis). Visual automation builder. Cheaper than Zapier, steeper learning curve. On the rubric: capability 4/5, cost 4/5, reliability 5/5."
+          "prose": "Make from Make (Celonis). Visual automation builder. Cheaper than Zapier, steeper learning curve. On the rubric: capability 8/10, cost 7/10, reliability 7/10, ecosystem 8/10, momentum 7/10."
         },
         {
           "name": "who_its_for",
@@ -2224,7 +2246,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. The right choice if you outgrow Zapier's pricing or want more control."
+          "prose": "What the rubric scores reflect: capability 8/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. The right choice if you outgrow Zapier's pricing or want more control."
         },
         {
           "name": "what_doesnt",
@@ -2248,7 +2270,8 @@
         "momentum": "Strong growth in EU. Picking up users who find Zapier too expensive."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.257802+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.257802+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.533688+00:00"
     },
     {
       "tool_id": "midjourney",
@@ -2310,7 +2333,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Midjourney from Midjourney Inc.. Image generation, currently the quality leader for stylized or artistic output. On the rubric: capability 5/5, cost 3/5, reliability 4/5."
+          "prose": "Midjourney from Midjourney Inc.. Image generation, currently the quality leader for stylized or artistic output. On the rubric: capability 10/10, cost 5/10, reliability 8/10, ecosystem 6/10, momentum 8/10."
         },
         {
           "name": "who_its_for",
@@ -2325,7 +2348,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 5/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Best in class for stylized imagery."
+          "prose": "What the rubric scores reflect: capability 10/10 says the underlying tech holds up. Reliability 8/10 means the team behind it isn't going anywhere. Best in class for stylized imagery."
         },
         {
           "name": "what_doesnt",
@@ -2349,7 +2372,8 @@
         "momentum": "Still the brand for AI art. Slower growth than 2023-24 but still strong."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.258375+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.258375+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.535379+00:00"
     },
     {
       "tool_id": "notion-ai",
@@ -2398,7 +2422,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Notion AI from Notion Labs. AI features inside Notion docs, databases, and projects. On the rubric: capability 3/5, cost 3/5, reliability 5/5."
+          "prose": "Notion AI from Notion Labs. AI features inside Notion docs, databases, and projects. On the rubric: capability 6/10, cost 5/10, reliability 8/10, ecosystem 7/10, momentum 6/10."
         },
         {
           "name": "who_its_for",
@@ -2413,7 +2437,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 3/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. Only valuable if you already use Notion as your workspace."
+          "prose": "What the rubric scores reflect: capability 6/10 says the underlying tech holds up. Reliability 8/10 means the team behind it isn't going anywhere. Only valuable if you already use Notion as your workspace."
         },
         {
           "name": "what_doesnt",
@@ -2437,7 +2461,8 @@
         "momentum": "Steady. The features haven't changed dramatically in 12 months."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.258949+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.258949+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.536677+00:00"
     },
     {
       "tool_id": "otter",
@@ -2501,7 +2526,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Otter.ai from Otter.ai Inc.. Meeting transcription and AI-generated summaries. Joins meetings as a notetaker. On the rubric: capability 4/5, cost 4/5, reliability 4/5."
+          "prose": "Otter.ai from Otter.ai Inc.. Meeting transcription and AI-generated summaries. Joins meetings as a notetaker. On the rubric: capability 7/10, cost 6/10, reliability 7/10, ecosystem 7/10, momentum 6/10."
         },
         {
           "name": "who_its_for",
@@ -2516,7 +2541,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Useful for anyone who attends 5+ meetings a week."
+          "prose": "What the rubric scores reflect: capability 7/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. Useful for anyone who attends 5+ meetings a week."
         },
         {
           "name": "what_doesnt",
@@ -2540,7 +2565,8 @@
         "momentum": "Steady. Slower growth than Fireflies in 2025."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.259577+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.259577+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.537874+00:00"
     },
     {
       "tool_id": "perplexity",
@@ -2592,7 +2618,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Perplexity from Perplexity AI. AI answer engine that cites sources. Built for research, not just chat. On the rubric: capability 4/5, cost 4/5, reliability 4/5."
+          "prose": "Perplexity from Perplexity AI. AI answer engine that cites sources. Built for research, not just chat. On the rubric: capability 8/10, cost 6/10, reliability 7/10, ecosystem 7/10, momentum 8/10."
         },
         {
           "name": "who_its_for",
@@ -2607,7 +2633,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Different product than ChatGPT or Claude."
+          "prose": "What the rubric scores reflect: capability 8/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. Different product than ChatGPT or Claude."
         },
         {
           "name": "what_doesnt",
@@ -2631,7 +2657,8 @@
         "momentum": "Fast user growth in 2025-26. The 'AI search' positioning is differentiated."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.260071+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.260071+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.539064+00:00"
     },
     {
       "tool_id": "synthesia",
@@ -2689,7 +2716,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Synthesia turns text scripts into videos with synthetic human presenters. You pick an avatar from a library, type what you want them to say, and the platform generates a 1080p MP4 in a few minutes. The library has 230+ stock avatars and you can order a custom one for around $1,000/year.\n\nThe product has been around since 2018, predates most of the current wave. Real customers include Unilever, Google, Nike, and a lot of internal corporate training teams."
+          "prose": "Synthesia turns text scripts into videos with synthetic human presenters. You pick an avatar from a library, type what you want them to say, and the platform generates a 1080p MP4 in a few minutes. The library has 230+ stock avatars and you can order a custom one for around $1,000/year.\n\nThe product has been around since 2018, predates most of the current wave. Real customers include Unilever, Google, Nike, and a lot of internal corporate training teams. On the rubric: capability 7/10, cost 6/10, reliability 8/10, ecosystem 7/10, momentum 7/10."
         },
         {
           "name": "who_its_for",
@@ -2727,7 +2754,8 @@
         "momentum": "Steady. Most growth is in enterprise training budgets."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.260772+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.260772+00:00",
+      "report_fixed_at": "2026-09-26T16:49:10.192341+00:00"
     },
     {
       "tool_id": "tidio",
@@ -2791,7 +2819,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Tidio from Tidio LLC. Live chat + AI chatbot for small e-commerce and SaaS businesses. On the rubric: capability 3/5, cost 4/5, reliability 4/5."
+          "prose": "Tidio from Tidio LLC. Live chat + AI chatbot for small e-commerce and SaaS businesses. On the rubric: capability 6/10, cost 7/10, reliability 7/10, ecosystem 6/10, momentum 6/10."
         },
         {
           "name": "who_its_for",
@@ -2806,7 +2834,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 3/5 says the underlying tech holds up. Reliability 4/5 means the team behind it isn't going anywhere. Right-sized for small businesses."
+          "prose": "What the rubric scores reflect: capability 6/10 says the underlying tech holds up. Reliability 7/10 means the team behind it isn't going anywhere. Right-sized for small businesses."
         },
         {
           "name": "what_doesnt",
@@ -2830,7 +2858,8 @@
         "momentum": "Steady. Mostly serving small e-commerce sites."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.261338+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.261338+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.540214+00:00"
     },
     {
       "tool_id": "zapier",
@@ -2897,7 +2926,7 @@
         {
           "name": "what_it_is",
           "heading": "What it is",
-          "prose": "Zapier from Zapier Inc.. Automation between apps. Now with AI steps and AI-powered workflow building. On the rubric: capability 4/5, cost 3/5, reliability 5/5."
+          "prose": "Zapier from Zapier Inc.. Automation between apps. Now with AI steps and AI-powered workflow building. On the rubric: capability 8/10, cost 5/10, reliability 9/10, ecosystem 10/10, momentum 7/10."
         },
         {
           "name": "who_its_for",
@@ -2912,7 +2941,7 @@
         {
           "name": "what_actually_works",
           "heading": "What actually works",
-          "prose": "What the rubric scores reflect: capability 4/5 says the underlying tech holds up. Reliability 5/5 means the team behind it isn't going anywhere. The default automation layer for non-developers."
+          "prose": "What the rubric scores reflect: capability 8/10 says the underlying tech holds up. Reliability 9/10 means the team behind it isn't going anywhere. The default automation layer for non-developers."
         },
         {
           "name": "what_doesnt",
@@ -2936,7 +2965,8 @@
         "momentum": "Steady. Adding AI actions but the core product isn't changing."
       },
       "rubric_score_version": "1.0 (1-10 scale)",
-      "rubric_scored_at": "2026-09-26T16:42:58.261814+00:00"
+      "rubric_scored_at": "2026-09-26T16:42:58.261814+00:00",
+      "report_fixed_at": "2026-09-26T16:49:28.541379+00:00"
     }
   ]
 }
