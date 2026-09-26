@@ -39,11 +39,11 @@
       "one_line_pitch": "Wire-free security cameras with AI detection of people, packages, vehicles, animals.",
       "your_take": "AI detection across multiple object types is genuinely useful. Subscription required for most features. The wire-free design is real flexibility. Pick Arlo over Ring if you don't want Amazon in your home.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 7,
+        "cost": 4,
+        "reliability": 6,
+        "ecosystem": 6,
+        "momentum": 5
       },
       "sources": [
         {
@@ -90,7 +90,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.985474+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Wireless cameras work well. AI person/vehicle detection is decent.",
+        "cost": "Hardware is expensive ($200+ per camera). Subscription at $8/mo per camera is steep.",
+        "reliability": "WiFi and battery issues are the usual complaints. Service is steady.",
+        "ecosystem": "Works with Alexa, Google, Apple Home. Limited third-party support.",
+        "momentum": "Slowing growth. Competing against cheaper options."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.243552+00:00"
     },
     {
       "tool_id": "august-lock",
@@ -123,11 +132,11 @@
       "one_line_pitch": "Smart lock that retrofits onto your existing deadbolt.",
       "your_take": "Best smart lock for renters because it doesn't replace the lock, just adds smarts. Auto-lock and auto-unlock based on phone proximity works well. Skip if you have a mortise lock.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 4,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 7,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 8,
+        "momentum": 5
       },
       "sources": [
         {
@@ -174,7 +183,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.988045+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Retrofits existing deadbolts. Auto-unlock works but isn't always reliable.",
+        "cost": "$130-230 depending on model. Reasonable for what it does.",
+        "reliability": "Service is steady. Battery lasts about 3-6 months.",
+        "ecosystem": "Works with Alexa, Google, HomeKit. Best-in-class smart home integration.",
+        "momentum": "Mature product. Yale acquisition hasn't changed much."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.244680+00:00"
     },
     {
       "tool_id": "ecobee",
@@ -207,11 +225,11 @@
       "one_line_pitch": "Smart thermostat with built-in Alexa and room sensors.",
       "your_take": "Better than Nest for homes with multiple rooms or uneven heating. The room sensors are the differentiator. Built-in Alexa is convenient if you don't have an Echo.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 4,
-        "reliability": 5,
-        "ecosystem": 5,
-        "momentum": 3
+        "capability": 8,
+        "cost": 7,
+        "reliability": 9,
+        "ecosystem": 8,
+        "momentum": 7
       },
       "sources": [
         {
@@ -258,7 +276,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.990098+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Includes remote sensors (Nest's main missing feature). Smart scheduling works well.",
+        "cost": "Slightly cheaper than Nest at the comparable tier. SmartSensor add-ons cost extra.",
+        "reliability": "Service is steady. Hardware has good long-term reliability.",
+        "ecosystem": "Works with all major smart home platforms. Best-in-class for HomeKit.",
+        "momentum": "Gaining share against Nest in 2025-26."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.245246+00:00"
     },
     {
       "tool_id": "roomba",
@@ -294,11 +321,11 @@
       "one_line_pitch": "Robot vacuum with room mapping and learning routines.",
       "your_take": "The category leader for years. The newer models (i-series, s9) actually map and learn your home, vs the older ones that just bump around. Worth the upgrade if you have a multi-room home.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 7,
+        "cost": 4,
+        "reliability": 6,
+        "ecosystem": 7,
+        "momentum": 5
       },
       "sources": [
         {
@@ -345,7 +372,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.992053+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Mapping is solid. Obstacle avoidance has improved but still gets stuck on cables.",
+        "cost": "Premium models ($700+) are expensive. Cheaper models lack the smart features.",
+        "reliability": "Has had some reliability complaints in 2024-25. Battery replacements common after 2-3 years.",
+        "ecosystem": "Works with Alexa, Google. iRobot's app is okay but not great.",
+        "momentum": "Amazon-acquired in 2022 but innovation has slowed."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.245828+00:00"
     },
     {
       "tool_id": "nest-doorbell",
@@ -381,11 +417,11 @@
       "one_line_pitch": "Google's video doorbell with package and familiar-face detection.",
       "your_take": "Better familiar-face detection than Ring. Requires Nest Aware subscription for most features. Pick if you're in Google ecosystem; pick Ring if you're in Amazon.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 7,
+        "cost": 5,
+        "reliability": 8,
+        "ecosystem": 9,
+        "momentum": 7
       },
       "sources": [
         {
@@ -432,7 +468,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.994015+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Good video quality. AI face recognition is more useful than Ring's.",
+        "cost": "More expensive than Ring at the comparable tier. Nest Aware subscription required for full features.",
+        "reliability": "Google's service is steady. Hardware is solid.",
+        "ecosystem": "Google Home native. Limited Alexa integration.",
+        "momentum": "Improving. Adding features faster than Ring."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.246498+00:00"
     },
     {
       "tool_id": "nest-thermostat",
@@ -459,11 +504,11 @@
       "one_line_pitch": "Learning thermostat that programs itself based on your habits.",
       "your_take": "Works as advertised for households with predictable schedules. The 'learning' is mostly just observation-based scheduling, not magic. Worth it if you have a heat-pump system where the savings pay back.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 5,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 8,
+        "cost": 6,
+        "reliability": 9,
+        "ecosystem": 9,
+        "momentum": 6
       },
       "sources": [
         {
@@ -509,7 +554,16 @@
         }
       ],
       "report_generated_at": "2026-09-25T16:25:03.519813+00:00",
-      "report_voice_score": 100
+      "report_voice_score": 100,
+      "rubric_reasons": {
+        "capability": "Learning mode is real. Schedules itself within a week. Saves measurable energy.",
+        "cost": "$279 for the Learning model is mid-range. The cheaper model cuts the features that matter.",
+        "reliability": "Made by Google. Updates for years. The hardware lasts.",
+        "ecosystem": "Google Home native. Alexa works. Apple Home is limited.",
+        "momentum": "Mature product. New features are incremental."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.247023+00:00"
     },
     {
       "tool_id": "philips-hue",
@@ -547,11 +601,11 @@
       "one_line_pitch": "Smart lighting with routines, motion sensors, and color scenes.",
       "your_take": "The premium choice in smart lighting. Pricier than LIFX or Wyze but the ecosystem is more mature. The Bridge is required for full functionality - that adds to the upfront cost.",
       "rubric_scores": {
-        "capability": 4,
+        "capability": 7,
         "cost": 3,
-        "reliability": 5,
-        "ecosystem": 5,
-        "momentum": 3
+        "reliability": 9,
+        "ecosystem": 9,
+        "momentum": 5
       },
       "sources": [
         {
@@ -598,7 +652,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.995981+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Best-in-class smart lighting. Colors are accurate. Schedules work reliably.",
+        "cost": "Expensive. Bulbs at $15-60 each. Bridge at $60. Full house adds up fast.",
+        "reliability": "Service is steady. Hardware lasts years.",
+        "ecosystem": "Works with every smart home platform. Largest lighting ecosystem.",
+        "momentum": "Mature. New products are incremental."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.247602+00:00"
     },
     {
       "tool_id": "reolink",
@@ -635,11 +698,11 @@
       "one_line_pitch": "Security cameras with local storage option and no mandatory subscription.",
       "your_take": "Best value in home security cameras. No subscription required for most features. The PoE (wired) options are best for permanent installations. Pick Reolink over Arlo if you don't want monthly fees.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 5,
-        "reliability": 4,
-        "ecosystem": 3,
-        "momentum": 4
+        "capability": 7,
+        "cost": 8,
+        "reliability": 7,
+        "ecosystem": 5,
+        "momentum": 6
       },
       "sources": [
         {
@@ -686,7 +749,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.997956+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Good video quality. AI detection is basic but improving. Local storage is a real plus.",
+        "cost": "Much cheaper than Arlo. No mandatory subscription.",
+        "reliability": "Service is steady. Hardware is solid for the price.",
+        "ecosystem": "Limited third-party integration. Mostly standalone.",
+        "momentum": "Growing among users who want to avoid subscriptions."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.248112+00:00"
     },
     {
       "tool_id": "ring-doorbell",
@@ -723,11 +795,11 @@
       "one_line_pitch": "Video doorbell with motion alerts and package detection.",
       "your_take": "The default video doorbell in 2026. The package detection AI is real and works. Privacy concerns are real too - Amazon owns your video. Compete with Nest Doorbell if you're already in Google ecosystem.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 7,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 9,
+        "momentum": 6
       },
       "sources": [
         {
@@ -774,7 +846,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:49.999879+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Solid video doorbell. AI person/package detection works but isn't always accurate.",
+        "cost": "$100-200 for the hardware. Subscription at $4/mo for video history adds up.",
+        "reliability": "Service is mostly reliable. WiFi issues are the usual problem.",
+        "ecosystem": "Amazon-native. Alexa integration is seamless.",
+        "momentum": "Mature product. Not changing fast."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.248658+00:00"
     },
     {
       "tool_id": "roborock",
@@ -806,11 +887,11 @@
       "one_line_pitch": "Robot vacuum and mop with advanced mapping. Best-in-class obstacle avoidance.",
       "your_take": "Often outperforms Roomba at lower prices. The mop functionality is real, not gimmick. Best choice if you want vacuum+mop in one device.",
       "rubric_scores": {
-        "capability": 5,
-        "cost": 4,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 4
+        "capability": 9,
+        "cost": 7,
+        "reliability": 8,
+        "ecosystem": 6,
+        "momentum": 8
       },
       "sources": [
         {
@@ -857,7 +938,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.001938+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Often outperforms Roomba at lower prices. Mapping and obstacle avoidance are excellent.",
+        "cost": "Better value than Roomba at every comparable tier.",
+        "reliability": "Strong reliability track record in 2024-25 reviews.",
+        "ecosystem": "Mi Home app is awkward. Works with Alexa and Google.",
+        "momentum": "Steady growth. Picking up market share from iRobot."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.249196+00:00"
     },
     {
       "tool_id": "canva",
@@ -894,11 +984,11 @@
       "one_line_pitch": "Visual design tool with AI features for social posts, presentations, and basic video.",
       "your_take": "Genuinely useful for non-designers. The Magic Studio AI features are real time-savers. Skip if you only need static designs.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 5,
-        "reliability": 5,
-        "ecosystem": 4,
-        "momentum": 4
+        "capability": 7,
+        "cost": 7,
+        "reliability": 9,
+        "ecosystem": 8,
+        "momentum": 8
       },
       "sources": [
         {
@@ -945,7 +1035,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.004397+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Magic Studio (AI features) is genuinely useful for non-designers. Background removal, image generation work well.",
+        "cost": "Free tier is usable. Pro at $15/mo is fair value for what you get.",
+        "reliability": "99.9% uptime. Web app almost never breaks.",
+        "ecosystem": "Brand kits, team folders, integrations with social platforms. Built for the use case.",
+        "momentum": "Adding AI features fast. The user base keeps growing."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.249691+00:00"
     },
     {
       "tool_id": "chatgpt",
@@ -988,11 +1087,11 @@
       "one_line_pitch": "The most widely-used general AI assistant, with a broad ecosystem of integrations and plugins.",
       "your_take": "Default choice for most non-technical users. The Plus tier at $20/mo is the most defensible price point for small business use. The Team tier's value is mostly admin controls and shared workspace, not model quality.",
       "rubric_scores": {
-        "capability": 5,
-        "cost": 4,
-        "reliability": 5,
-        "ecosystem": 5,
-        "momentum": 5
+        "capability": 9,
+        "cost": 6,
+        "reliability": 9,
+        "ecosystem": 10,
+        "momentum": 9
       },
       "sources": [
         {
@@ -1043,7 +1142,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.006443+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "The default for a reason. GPT-4 class on the Plus tier handles most tasks a small business owner would throw at it.",
+        "cost": "$20/mo for Plus is fair but the Team tier's per-seat math gets expensive fast if you have more than 3 people.",
+        "reliability": "OpenAI ships consistently. Outages are rare. The model quality hasn't slipped noticeably in the last year.",
+        "ecosystem": "Every plugin, every integration, every workflow assumes ChatGPT is in the mix. Largest third-party ecosystem by a wide margin.",
+        "momentum": "Still the brand. Still getting the new models first. No signs of slowing down."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.250344+00:00"
     },
     {
       "tool_id": "claude",
@@ -1086,11 +1194,11 @@
       "one_line_pitch": "Anthropic's assistant. Strong at long-form writing and analysis, weaker at image generation.",
       "your_take": "Best in class for writing-heavy work and document analysis. The Max tier exists mostly for power users who hit rate limits; small business owners won't need it.",
       "rubric_scores": {
-        "capability": 5,
-        "cost": 4,
-        "reliability": 5,
-        "ecosystem": 4,
-        "momentum": 4
+        "capability": 9,
+        "cost": 7,
+        "reliability": 9,
+        "ecosystem": 8,
+        "momentum": 9
       },
       "sources": [
         {
@@ -1141,7 +1249,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.008590+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Better at long-form writing and code than ChatGPT in most direct comparisons. The 200K context is genuinely useful for real work.",
+        "cost": "$20/mo for Pro is reasonable. API pricing is competitive with OpenAI's.",
+        "reliability": "Anthropic has had fewer public outages than OpenAI this year. Service is steady.",
+        "ecosystem": "Smaller than ChatGPT but growing fast. The MCP standard they pushed is starting to matter.",
+        "momentum": "Strong upward trajectory. Enterprise adoption is real, not just hype."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.251314+00:00"
     },
     {
       "tool_id": "copy-ai",
@@ -1178,11 +1295,11 @@
       "one_line_pitch": "AI copywriting workflows for marketing and sales teams.",
       "your_take": "Workflow-first approach. Worth trying if Jasper feels too expensive. Same caveat as Jasper: solo operators probably don't need this.",
       "rubric_scores": {
-        "capability": 3,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 5,
+        "cost": 6,
+        "reliability": 6,
+        "ecosystem": 5,
+        "momentum": 4
       },
       "sources": [
         {
@@ -1229,7 +1346,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.010527+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Adequate for short marketing copy. Doesn't shine at long-form or complex tasks.",
+        "cost": "$36/mo for the Starter tier is reasonable but the value ceiling is low.",
+        "reliability": "Service is fine. No major outages to speak of.",
+        "ecosystem": "Limited compared to bigger players. Workflow tools exist but are basic.",
+        "momentum": "Hasn't grown as fast as the market. Competing against ChatGPT at ChatGPT prices."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.252149+00:00"
     },
     {
       "tool_id": "descript",
@@ -1270,11 +1396,11 @@
       "one_line_pitch": "Audio/video editor that edits by editing text. AI transcription + filler-word removal.",
       "your_take": "Genuinely different from other editors. The 'edit audio by editing text' workflow is real, not gimmick. Pricing jumped in 2024; check current tiers.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 3,
-        "momentum": 3
+        "capability": 8,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 6,
+        "momentum": 7
       },
       "sources": [
         {
@@ -1321,7 +1447,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.012551+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Transcription + edit-by-text is genuinely innovative. AI voice cloning works but isn't perfect.",
+        "cost": "$24/mo for Creator is fair. Free tier is too limited to really try it.",
+        "reliability": "Web app occasionally hiccups. Desktop version is more stable.",
+        "ecosystem": "Limited. Mostly standalone. YouTube upload integration works.",
+        "momentum": "Growing steadily. Mostly in podcast/video creator circles."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.252800+00:00"
     },
     {
       "tool_id": "elevenlabs",
@@ -1368,11 +1503,11 @@
       "one_line_pitch": "Voice synthesis and voice cloning. Best quality available for English.",
       "your_take": "If voice is your product (podcast, video narration, audiobooks), this is the default. The free tier is enough to evaluate. The real cost comes from minutes-of-audio, not the subscription.",
       "rubric_scores": {
-        "capability": 5,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 5
+        "capability": 9,
+        "cost": 6,
+        "reliability": 8,
+        "ecosystem": 7,
+        "momentum": 9
       },
       "sources": [
         {
@@ -1419,7 +1554,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.014680+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Best-in-class voice synthesis. Multilingual quality is genuinely impressive.",
+        "cost": "$5/mo for Starter is fine. Character-based pricing gets expensive at scale.",
+        "reliability": "Service is steady. Generated audio quality is consistent.",
+        "ecosystem": "API access, integrations with major video tools. Growing.",
+        "momentum": "Fastest-growing in the audio AI space. Real competition to legacy TTS vendors."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.253401+00:00"
     },
     {
       "tool_id": "fireflies",
@@ -1464,11 +1608,11 @@
       "one_line_pitch": "Meeting transcription and analysis. Direct competitor to Otter with deeper CRM integrations.",
       "your_take": "Better than Otter if you live in Salesforce or HubSpot. Worse if you don't. The integrations are the differentiator.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 5,
-        "momentum": 4
+        "capability": 7,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 8,
+        "momentum": 6
       },
       "sources": [
         {
@@ -1515,7 +1659,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.016731+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Meeting transcription is accurate. AI summaries are useful but not magical.",
+        "cost": "Free tier is limited. Pro at $18/seat/mo is the real product.",
+        "reliability": "Service is steady. Misses some meetings if calendar sync fails.",
+        "ecosystem": "Integrates with Zoom, Teams, Meet, Webex. CRM integrations exist.",
+        "momentum": "Steady. Competing against Otter and Read.ai for the same market."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.253965+00:00"
     },
     {
       "tool_id": "gemini",
@@ -1553,11 +1706,11 @@
       "one_line_pitch": "Google's assistant, deeply integrated into Workspace and the Android ecosystem.",
       "your_take": "If you live in Google Workspace, this is the obvious default. If you don't, the integration advantage doesn't apply and the underlying model is comparable to competitors.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 5,
-        "ecosystem": 5,
-        "momentum": 4
+        "capability": 7,
+        "cost": 7,
+        "reliability": 8,
+        "ecosystem": 9,
+        "momentum": 8
       },
       "sources": [
         {
@@ -1604,7 +1757,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.018890+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Solid mid-tier. Good at multimodal tasks where you can feed it images/video. Falls behind on pure text reasoning.",
+        "cost": "Free tier is generous. Advanced at $20/mo matches the competitors.",
+        "reliability": "Google's infrastructure means uptime is essentially never an issue.",
+        "ecosystem": "Native to Workspace, Gmail, Docs. If you're already in Google land, this is friction-free.",
+        "momentum": "Steady improvement each model version. Not flashy but real progress."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.254600+00:00"
     },
     {
       "tool_id": "grammarly",
@@ -1641,11 +1803,11 @@
       "one_line_pitch": "Writing assistant focused on grammar, clarity, and tone. Works where you already write.",
       "your_take": "Useful, not transformative. The free tier catches the basics. Worth the $12/mo if you write a lot of external email. Skip if you don't.",
       "rubric_scores": {
-        "capability": 3,
-        "cost": 4,
-        "reliability": 5,
-        "ecosystem": 5,
-        "momentum": 3
+        "capability": 7,
+        "cost": 5,
+        "reliability": 9,
+        "ecosystem": 9,
+        "momentum": 6
       },
       "sources": [
         {
@@ -1692,7 +1854,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.020982+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Best grammar/style checker that exists. The AI suggestions are noticeably better than old Grammarly.",
+        "cost": "Premium at $12/mo is fine. Business tier at $15/seat adds up across teams.",
+        "reliability": "Browser extensions just work. Almost never breaks.",
+        "ecosystem": "Everywhere. Browser, desktop apps, mobile keyboard. Best-in-class integration story.",
+        "momentum": "Adding AI features but growth has plateaued. Mature product."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.255289+00:00"
     },
     {
       "tool_id": "heygen",
@@ -1733,11 +1904,11 @@
       "one_line_pitch": "AI video generation with avatars. Similar to Synthesia, more marketing-creator focused.",
       "your_take": "Better avatars and more natural-looking output than Synthesia at similar price points. For small business marketing videos, the choice between them comes down to UI feel and specific avatar library.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 4
+        "capability": 7,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 6,
+        "momentum": 7
       },
       "sources": [
         {
@@ -1784,7 +1955,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.023109+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Direct competitor to Synthesia. Slightly better expressiveness, slightly worse template library.",
+        "cost": "$24/mo for Creator is comparable to alternatives.",
+        "reliability": "Service has been steady in 2025-26.",
+        "ecosystem": "Smaller than Synthesia but growing.",
+        "momentum": "Picking up users, especially in APAC."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.255900+00:00"
     },
     {
       "tool_id": "intercom-fin",
@@ -1811,11 +1991,11 @@
       "one_line_pitch": "AI customer service agent that resolves tickets autonomously. Charges per resolution.",
       "your_take": "The per-resolution pricing model is interesting - you pay for outcomes, not seats. Real ROI math requires knowing your current cost per ticket. Skip if your ticket volume is low or your questions are complex.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 4,
-        "reliability": 4,
-        "ecosystem": 5,
-        "momentum": 5
+        "capability": 7,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 8,
+        "momentum": 8
       },
       "sources": [
         {
@@ -1861,7 +2041,16 @@
         }
       ],
       "report_generated_at": "2026-09-25T16:25:03.519813+00:00",
-      "report_voice_score": 100
+      "report_voice_score": 100,
+      "rubric_reasons": {
+        "capability": "Genuinely useful for high-volume, low-complexity tickets. Struggles on anything requiring account-state lookups.",
+        "cost": "$0.99 per resolution is clever pricing. Math depends entirely on what fraction of your tickets it handles.",
+        "reliability": "Service is steady. The handoff to humans works reliably.",
+        "ecosystem": "Native to Intercom. Doesn't integrate with non-Intercom support stacks.",
+        "momentum": "Fast-growing segment. Competitors are emerging but Intercom has the head start."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.256329+00:00"
     },
     {
       "tool_id": "jasper",
@@ -1898,11 +2087,11 @@
       "one_line_pitch": "Marketing-focused AI writing tool with brand voice and team workflows.",
       "your_take": "Built for marketing teams that need brand-consistency at scale. For a solo operator, this is overkill compared to ChatGPT or Claude with a good prompt template.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 2,
-        "reliability": 4,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 6,
+        "cost": 4,
+        "reliability": 7,
+        "ecosystem": 7,
+        "momentum": 5
       },
       "sources": [
         {
@@ -1949,7 +2138,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.025132+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Built for marketing teams specifically. Brand voice features are real, but the underlying model is comparable to ChatGPT.",
+        "cost": "Pricing starts around $49/mo and goes up fast. More expensive than just using ChatGPT directly for most use cases.",
+        "reliability": "Steady company, but they've had feature removals that frustrated existing customers.",
+        "ecosystem": "Strong marketing-stack integrations: HubSpot, Surfer, etc. Built for that workflow.",
+        "momentum": "Growth has slowed. The differentiation is harder to defend as base models catch up."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.257016+00:00"
     },
     {
       "tool_id": "make",
@@ -1990,11 +2188,11 @@
       "one_line_pitch": "Visual automation builder. Cheaper than Zapier, steeper learning curve.",
       "your_take": "The right choice if you outgrow Zapier's pricing or want more control. Not the right choice for your first automation tool - the UI is more powerful but more confusing.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 4,
-        "reliability": 5,
-        "ecosystem": 4,
-        "momentum": 4
+        "capability": 8,
+        "cost": 7,
+        "reliability": 7,
+        "ecosystem": 8,
+        "momentum": 7
       },
       "sources": [
         {
@@ -2041,7 +2239,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.027197+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "More powerful than Zapier for complex branching workflows. Visual editor is good once you learn it.",
+        "cost": "Cheaper than Zapier at scale. Free tier is more generous.",
+        "reliability": "Has had occasional outages. Less bulletproof than Zapier.",
+        "ecosystem": "1500+ integrations. Smaller than Zapier but covers most needs.",
+        "momentum": "Strong growth in EU. Picking up users who find Zapier too expensive."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.257802+00:00"
     },
     {
       "tool_id": "midjourney",
@@ -2082,11 +2289,11 @@
       "one_line_pitch": "Image generation, currently the quality leader for stylized or artistic output.",
       "your_take": "Best in class for stylized imagery. For product photography or corporate work, alternatives like Flux or SDXL are comparable at lower cost.",
       "rubric_scores": {
-        "capability": 5,
-        "cost": 3,
-        "reliability": 4,
-        "ecosystem": 3,
-        "momentum": 4
+        "capability": 10,
+        "cost": 5,
+        "reliability": 8,
+        "ecosystem": 6,
+        "momentum": 8
       },
       "sources": [
         {
@@ -2133,7 +2340,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.029237+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Best-in-class image generation. The aesthetic quality is consistently ahead of competitors.",
+        "cost": "$10/mo for Basic is fine. Heavy users hit $60/mo fast.",
+        "reliability": "Discord-based interface is awkward but the service itself is stable.",
+        "ecosystem": "Limited. No native API for v6. Discord-only.",
+        "momentum": "Still the brand for AI art. Slower growth than 2023-24 but still strong."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.258375+00:00"
     },
     {
       "tool_id": "notion-ai",
@@ -2161,11 +2377,11 @@
       "one_line_pitch": "AI features inside Notion docs, databases, and projects.",
       "your_take": "Only valuable if you already use Notion as your workspace. If you're not in Notion, this isn't a reason to start.",
       "rubric_scores": {
-        "capability": 3,
-        "cost": 3,
-        "reliability": 5,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 6,
+        "cost": 5,
+        "reliability": 8,
+        "ecosystem": 7,
+        "momentum": 6
       },
       "sources": [
         {
@@ -2212,7 +2428,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.031218+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Useful for summarizing and translating inside Notion docs. Not a reason to start using Notion.",
+        "cost": "Free for the first 50 uses, then $10/mo if you already pay for Notion. Hard to value separately.",
+        "reliability": "Notion itself is stable. The AI features rarely break.",
+        "ecosystem": "Inside Notion only. No standalone API. Limited external use.",
+        "momentum": "Steady. The features haven't changed dramatically in 12 months."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.258949+00:00"
     },
     {
       "tool_id": "otter",
@@ -2255,11 +2480,11 @@
       "one_line_pitch": "Meeting transcription and AI-generated summaries. Joins meetings as a notetaker.",
       "your_take": "Useful for anyone who attends 5+ meetings a week. The meeting-joiner feature is the real product; the transcription is good but not the point.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 4,
-        "reliability": 4,
-        "ecosystem": 5,
-        "momentum": 3
+        "capability": 7,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 7,
+        "momentum": 6
       },
       "sources": [
         {
@@ -2306,7 +2531,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.033252+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Solid meeting transcription. AI summaries are improving but not yet great.",
+        "cost": "Free tier is usable. Pro at $16.99/seat/mo matches competitors.",
+        "reliability": "Service is steady. Mobile app occasionally drops audio.",
+        "ecosystem": "Zoom, Teams, Meet integrations. Salesforce connector exists.",
+        "momentum": "Steady. Slower growth than Fireflies in 2025."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.259577+00:00"
     },
     {
       "tool_id": "perplexity",
@@ -2337,11 +2571,11 @@
       "one_line_pitch": "AI answer engine that cites sources. Built for research, not just chat.",
       "your_take": "Different product than ChatGPT or Claude. Built for 'I need to research X and have receipts.' The citations are the feature, not the chat.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 4,
-        "reliability": 4,
-        "ecosystem": 3,
-        "momentum": 4
+        "capability": 8,
+        "cost": 6,
+        "reliability": 7,
+        "ecosystem": 7,
+        "momentum": 8
       },
       "sources": [
         {
@@ -2388,7 +2622,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.035514+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Best-in-class for research-style queries with citations. The Pro Search mode actually changes how you work.",
+        "cost": "$20/mo for Pro is fair. Free tier is enough to know if you like it.",
+        "reliability": "Citations occasionally link to dead pages but the core service is solid.",
+        "ecosystem": "Smaller integration story than the big three. Browser extension is the main one.",
+        "momentum": "Fast user growth in 2025-26. The 'AI search' positioning is differentiated."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.260071+00:00"
     },
     {
       "tool_id": "synthesia",
@@ -2425,11 +2668,11 @@
       "one_line_pitch": "AI-generated video with synthetic presenters. Used heavily for corporate training.",
       "your_take": "Real product with real customers (Unilever, Google, Nike). Honest version: the synthetic presenter is uncanny to most viewers. Use for internal training where that doesn't matter; avoid for customer-facing video.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 2,
-        "reliability": 5,
-        "ecosystem": 4,
-        "momentum": 3
+        "capability": 7,
+        "cost": 6,
+        "reliability": 8,
+        "ecosystem": 7,
+        "momentum": 7
       },
       "sources": [
         {
@@ -2475,7 +2718,16 @@
         }
       ],
       "report_generated_at": "2026-09-25T16:25:03.519813+00:00",
-      "report_voice_score": 100
+      "report_voice_score": 100,
+      "rubric_reasons": {
+        "capability": "Real product with real customers. Lip-sync is solid. Avatar expressiveness is limited.",
+        "cost": "$22/seat/mo is reasonable. Custom avatars at $1,000/yr are a hidden cost.",
+        "reliability": "Service is steady. Generated videos rarely fail.",
+        "ecosystem": "230+ stock avatars. Integrations with LMS and training platforms.",
+        "momentum": "Steady. Most growth is in enterprise training budgets."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.260772+00:00"
     },
     {
       "tool_id": "tidio",
@@ -2518,11 +2770,11 @@
       "one_line_pitch": "Live chat + AI chatbot for small e-commerce and SaaS businesses.",
       "your_take": "Right-sized for small businesses. Cheaper than Intercom for low-to-mid ticket volume. The 'Lyro' AI bot is competent but not state-of-the-art.",
       "rubric_scores": {
-        "capability": 3,
-        "cost": 4,
-        "reliability": 4,
-        "ecosystem": 5,
-        "momentum": 3
+        "capability": 6,
+        "cost": 7,
+        "reliability": 7,
+        "ecosystem": 6,
+        "momentum": 6
       },
       "sources": [
         {
@@ -2569,7 +2821,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.037517+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Decent chatbot for SMB sites. AI flows work but aren't sophisticated.",
+        "cost": "Free tier is fine for small sites. Paid at $29/mo is reasonable.",
+        "reliability": "Service is steady. Widget rarely breaks.",
+        "ecosystem": "Shopify, WordPress, Wix integrations. Smaller than Intercom.",
+        "momentum": "Steady. Mostly serving small e-commerce sites."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.261338+00:00"
     },
     {
       "tool_id": "zapier",
@@ -2615,11 +2876,11 @@
       "one_line_pitch": "Automation between apps. Now with AI steps and AI-powered workflow building.",
       "your_take": "The default automation layer for non-developers. The new AI features are real but the value is still the integration catalog, not the AI.",
       "rubric_scores": {
-        "capability": 4,
-        "cost": 3,
-        "reliability": 5,
-        "ecosystem": 5,
-        "momentum": 4
+        "capability": 8,
+        "cost": 5,
+        "reliability": 9,
+        "ecosystem": 10,
+        "momentum": 7
       },
       "sources": [
         {
@@ -2666,7 +2927,16 @@
       ],
       "report_generated_at": "2026-09-25T16:30:50.039570+00:00",
       "report_voice_score": 100,
-      "report_ai_tells": 0
+      "report_ai_tells": 0,
+      "rubric_reasons": {
+        "capability": "Workflow automation is mature. The AI features are decent but the core Zaps are what matter.",
+        "cost": "$19.99/mo for the cheapest paid tier is fine. Heavy users hit the enterprise pricing fast.",
+        "reliability": "99.9% uptime is real. Workflows don't break in the middle of the night.",
+        "ecosystem": "Connects to 6000+ apps. Largest integration library by far.",
+        "momentum": "Steady. Adding AI actions but the core product isn't changing."
+      },
+      "rubric_score_version": "1.0 (1-10 scale)",
+      "rubric_scored_at": "2026-09-26T16:42:58.261814+00:00"
     }
   ]
 }
