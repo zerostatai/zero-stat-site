@@ -186,7 +186,43 @@
   .rubric-cell .score {
     display: block;
     color: var(--cobalt);
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+  .rubric-cell .axis {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+  }
+  .rubric-reasons {
+    margin-top: 12px;
+    padding: 12px 14px;
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 2px solid var(--cobalt);
+    border-radius: 4px;
+  }
+  .rubric-reasons h4 {
+    font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 12px 0 6px;
+  }
+  .rubric-reasons h4:first-child { margin-top: 0; }
+  .rubric-reasons .reason-row {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 10px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.78);
+  }
+  .rubric-reasons .reason-score {
+    color: var(--cobalt);
     font-weight: 600;
     font-variant-numeric: tabular-nums;
   }
@@ -269,8 +305,19 @@
     }
     list.innerHTML = visible.map(t => {
       const rubric = ['capability', 'cost', 'reliability', 'ecosystem', 'momentum']
-        .map(k => `<div class="rubric-cell"><span class="score">${t.rubric_scores[k]}</span>${k[0].toUpperCase()}</div>`)
+        .map(k => `<div class="rubric-cell"><span class="score">${t.rubric_scores[k]}</span><span class="axis">${k[0].toUpperCase()}</span></div>`)
         .join('');
+
+      // Reasons block: only render if reasons exist
+      const reasonsHtml = (t.rubric_reasons && Object.keys(t.rubric_reasons).length)
+        ? `<div class="rubric-reasons"><h4>Why these scores</h4>${
+            ['capability', 'cost', 'reliability', 'ecosystem', 'momentum'].map(k => {
+              const reason = t.rubric_reasons[k];
+              if (!reason) return '';
+              return `<div class="reason-row"><span class="reason-score">${t.rubric_scores[k]}/10</span><span>${escapeHtml(reason)}</span></div>`;
+            }).join('')
+          }</div>`
+        : '';
 
       // Logo block: image if available, fallback to first letter
       const logoHtml = t.image_url
@@ -278,8 +325,8 @@
         : `<div class="tool-logo"><div class="tool-logo-fallback">${escapeHtml((t.name || '?')[0].toUpperCase())}</div></div>`;
 
       // Report block: only render if report object exists and has prose
-      const reportHtml = (t.report && t.report.sections && t.report.sections.length)
-        ? `<div class="tool-report">${renderReportSections(t.report.sections)}</div>`
+      const reportHtml = (t.report && Array.isArray(t.report) && t.report.length)
+        ? `<div class="tool-report">${renderReportSections(t.report)}</div>`
         : '';
 
       return `
@@ -296,6 +343,7 @@
           ${reportHtml}
           <div class="tool-take">${escapeHtml(t.your_take)}</div>
           <div class="rubric">${rubric}</div>
+          ${reasonsHtml}
           <div class="tool-meta">
             <span>Pricing: ${escapeHtml(t.pricing_model)}</span>
             <span>Last checked: ${escapeHtml(t.last_checked)}</span>
