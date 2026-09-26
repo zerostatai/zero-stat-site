@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Methodology — zerostat.ai</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="How zerostat.ai curates, scores, and updates the AI tool tracker. Five dimensions, no fixed weights, every claim sourced, every entry has a 'last checked' date.">
+<meta name="description" content="How zerostat.ai curates, scores, and updates the AI tool brief. Five dimensions, no fixed weights, every claim sourced, every entry has a 'last checked' date.">
 <style>
   /* Inter via local file */
   @font-face {
@@ -158,17 +158,17 @@
 <h1>How zerostat.ai curates.</h1>
 <p class="lede">A transparent method for tracking AI tools a non-developer might actually use. We publish the scoring dimensions, the data sources, and the 'last checked' date on every entry. We don't aggregate listicles, accept vendor placement, or ship fixed weighted scores dressed as math.</p>
 
-<p class="meta"><span class="pill">v2</span> <span class="pill">2026-09-25</span> Rewritten for the tracker launch. Previous version described the YouTube-channel ranking rubric; that documentation no longer reflects what this site is.</p>
+<p class="meta"><span class="pill">v2</span> <span class="pill">2026-09-25</span> Rewritten for the brief launch. Previous version described the YouTube-channel ranking rubric; that documentation no longer reflects what this site is.</p>
 
 <div class="tl-dr">
 <p><strong>The short version:</strong></p>
-<p>We track AI tools a non-developer small business owner might actually use, across two lanes (general small business, at home). Each tool gets a one-line pitch, an honest take, and five 1–5 scores across capability, cost, reliability, ecosystem, and momentum. <strong>There is no weighted composite.</strong> Scores are read individually, never multiplied. The honest take is the actual judgment; the scores are for sorting.</p>
+<p>We track AI tools a non-developer small business owner might actually use, across two lanes (general small business, at home). Each tool gets a one-line pitch, an honest take, and five 1–10 scores across capability, cost, reliability, ecosystem, and momentum. <strong>There is no weighted composite.</strong> Scores are read individually, never multiplied. The honest take is the actual judgment; the scores are for sorting.</p>
 <p>Every entry has a <code>last_checked</code> date and at least one source URL. Every claim a vendor could dispute is sourced. Pricing data is checked monthly; entries stale more than 90 days are flagged and re-verified.</p>
 </div>
 
 <h2>The five dimensions</h2>
 
-<p>Each entry in the tracker carries five scores on a 1–5 scale. They are not combined into a single number. They exist so you can sort the table by what matters to you, and so we can be held to a discrete claim for each axis. If you disagree with a score, argue a specific axis, not vibes.</p>
+<p>Each entry in the brief carries five scores on a 1–10 scale. They are not combined into a single number. They exist so you can sort the table by what matters to you, and so we can be held to a discrete claim for each axis. If you disagree with a score, argue a specific axis, not vibes.</p>
 
 <div class="rubric">
   <div class="rubric-row">
@@ -176,35 +176,35 @@
       <div class="axis">Capability</div>
       <span class="mean">Does the tool do the job at a level a non-developer needs? Not benchmarks in isolation — what it actually produces for the kind of user who'd buy it. Output quality, accuracy, depth, format flexibility.</span>
     </div>
-    <div class="weight">1–5</div>
+    <div class="weight">1–10</div>
   </div>
   <div class="rubric-row">
     <div>
       <div class="axis">Cost</div>
       <span class="mean">Price relative to peers in the same category, including tier structure, hidden costs (usage, seats, add-ons), and the realistic monthly bill for a small business owner. Lower score = more expensive or more confusing pricing.</span>
     </div>
-    <div class="weight">1–5</div>
+    <div class="weight">1–10</div>
   </div>
   <div class="rubric-row">
     <div>
       <div class="axis">Reliability</div>
       <span class="mean">Uptime, consistency, support quality, hallucination rate where measurable, prompt-to-prompt variance. How often does it break, and how recoverable is it when it does?</span>
     </div>
-    <div class="weight">1–5</div>
+    <div class="weight">1–10</div>
   </div>
   <div class="rubric-row">
     <div>
       <div class="axis">Ecosystem</div>
       <span class="mean">Integrations, API availability, MCP support, documentation quality, community size. Can you actually plug this into the rest of your stack, or is it a walled garden?</span>
     </div>
-    <div class="weight">1–5</div>
+    <div class="weight">1–10</div>
   </div>
   <div class="rubric-row">
     <div>
       <div class="axis">Momentum</div>
       <span class="mean">Is the vendor shipping, growing, or drifting? Release cadence, public signal (funding, customer wins, layoffs), category leadership. Lower score = static or declining. Higher score = leader in a fast-moving category.</span>
     </div>
-    <div class="weight">1–5</div>
+    <div class="weight">1–10</div>
   </div>
 </div>
 
@@ -212,13 +212,13 @@
 
 <p>An earlier version of this site published fixed weights (30/25/20/15/10) and produced a single composite score. The argument was that weighted math gives the impression of objectivity. The honest version: it doesn't. The weights are opinions dressed as numbers, and any reader who disagrees with a ranking can — and did — argue the coefficients instead of the actual call.</p>
 
-<p>The tracker uses 1–5 scores per dimension with no pretense of mathematical precision. The <code>your_take</code> field on each entry is the actual editorial judgment: what we think, in plain language, with reasoning. Scores are for sort and filter. The take is the verdict.</p>
+<p>The brief uses 1–10 scores per dimension with no pretense of mathematical precision. The <code>your_take</code> field on each entry is the actual editorial judgment: what we think, in plain language, with reasoning. Scores are for sort and filter. The take is the verdict.</p>
 
 <p>If you want a composite: read the take. If you want to compare: sort by the dimension that matters to you.</p>
 
 <h2>Per-lane framing</h2>
 
-<p>The tracker has two lanes at launch. They use the same five dimensions but emphasize different things.</p>
+<p>The brief has two lanes at launch. They use the same five dimensions but emphasize different things.</p>
 
 <h3>Small business lane (smb-general)</h3>
 <ul>
@@ -237,7 +237,7 @@
 
 <h2>Where the data comes from</h2>
 
-<p>Every claim in the tracker traces to one of:</p>
+<p>Every claim in the brief traces to one of:</p>
 
 <ol>
   <li><strong>Vendor docs and pricing pages</strong> — primary, preferred. The product page, the changelog, the pricing page, the docs.</li>
@@ -260,11 +260,11 @@
 
 <p><strong>We hold back:</strong> nothing material at present. The dataset is public; the reasoning is in the takes.</p>
 
-<p><strong>What we don't accept:</strong> sponsored placements, vendor edits, paid reviews. If a vendor wants to correct a claim, the correction lives in the take or the sources — not in exchange for payment. The tracker is independent; we want it to stay credible.</p>
+<p><strong>What we don't accept:</strong> sponsored placements, vendor edits, paid reviews. If a vendor wants to correct a claim, the correction lives in the take or the sources — not in exchange for payment. The brief is independent; we want it to stay credible.</p>
 
 <h2>How updates work</h2>
 
-<p>The tracker runs on a monthly cron. On the 1st of each month:</p>
+<p>The brief runs on three cron jobs: hourly (integrity check + draft review), daily at 09:00 (new-tool discovery), and monthly on the 1st. On the 1st of each month:</p>
 
 <ol>
   <li>The cron fetches every active tool's primary URL and pricing page.</li>
@@ -280,7 +280,7 @@
 
 <dl>
   <dt><strong>Entry</strong></dt>
-  <dd>One row in the tracker. A single tool with a stable <code>tool_id</code>, a one-line pitch, a take, five scores, pricing data, sources, and a <code>last_checked</code> date.</dd>
+  <dd>One row in the brief. A single tool with a stable <code>tool_id</code>, a one-line pitch, a take, five scores, pricing data, sources, and a <code>last_checked</code> date.</dd>
 
   <dt><strong>Lane</strong></dt>
   <dd>The category the entry lives in. Two lanes at launch: <code>smb-general</code> and <code>home-ai</code>.</dd>
@@ -308,19 +308,23 @@
   </thead>
   <tbody>
     <tr>
+      <td>2026-09-26</td>
+      <td>v3. Score scale changed 1–5 to 1–10 (per-axis reasons added). Tracker renamed to Brief (URL, page title, all references). Page updated to describe three cron jobs (hourly, daily, monthly) instead of monthly-only. Color and report structure on /brief/ updated.</td>
+    </tr>
+    <tr>
       <td>2026-09-25</td>
-      <td>v2. Rewritten for the tracker launch. Removed all references to YouTube channel, ranked videos, fixed weighted rubric, and the Opus charter. Adopted 1–5 scores with no composite. Added update cadence, lane framing, source policy.</td>
+      <td>v2. Rewritten for the brief launch. Removed all references to YouTube channel, ranked videos, fixed weighted rubric, and the Opus charter. Adopted 1–10 scores with no composite. Added update cadence, lane framing, source policy.</td>
     </tr>
     <tr>
       <td>2026-06-28</td>
-      <td>v1. Initial draft describing the YouTube-channel ranking methodology (capability 30 / cost 25 / reliability 20 / ecosystem 15 / momentum 10, weighted composite). Superseded by v2 — the channel is paused, the rubric is gone, and the site now hosts the tracker.</td>
+      <td>v1. Initial draft describing the YouTube-channel ranking methodology (capability 30 / cost 25 / reliability 20 / ecosystem 15 / momentum 10, weighted composite). Superseded by v2 — the channel is paused, the rubric is gone, and the site now hosts the brief.</td>
     </tr>
   </tbody>
 </table>
 
 <div class="footer">
 <p>[ ZERO STAT ] — A curated, kept-current list of AI tools a non-developer might actually use.</p>
-<p>This document is part of the site's editorial standards. <a href="../" style="color: var(--cobalt);">Back to zerostat.ai</a> · <a href="../tracker/" style="color: var(--cobalt);">View the tracker</a></p>
+<p>This document is part of the site's editorial standards. <a href="../" style="color: var(--cobalt);">Back to zerostat.ai</a> · <a href="../brief/" style="color: var(--cobalt);">View the brief</a></p>
 </div>
 
 </div>
